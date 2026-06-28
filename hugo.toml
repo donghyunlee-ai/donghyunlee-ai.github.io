@@ -26,7 +26,7 @@ pagination.pagerSize = 10
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:madeby2@gmail.com"   # ← 공개용 연락처로 교체 가능
+    url = "mailto:donghyunlee-ai@gmail.com"
 
 [menu]
   [[menu.main]]
