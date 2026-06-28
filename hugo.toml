@@ -1,0 +1,54 @@
+# Hugo 허브 사이트 설정 — 이동현 박사
+# baseURL: 프로젝트 페이지면 "https://donghyunlee-ai.github.io/hub/", 커스텀 도메인이면 그 주소로 교체.
+baseURL = "https://donghyunlee-ai.github.io/hub/"
+languageCode = "ko-kr"
+defaultContentLanguage = "ko"
+title = "이동현의 신뢰할 수 있는 AI 노트"   # ← 전략-결정서에서 최종 확정 후 교체 가능
+theme = "PaperMod"
+enableRobotsTXT = true
+enableEmoji = true
+pagination.pagerSize = 10
+
+[params]
+  description = "현장에서 작동하는 AI를 만듭니다 — 감염병·환경 예측의 설명가능한 AI. 이동현 박사."
+  author = "이동현"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowToc = true
+  TocOpen = false
+  ShowCodeCopyButtons = false
+
+  [params.homeInfoParams]
+    Title = "현장에서 작동하는 AI를 만듭니다"
+    Content = "감염병·환경 예측에 설명가능하고 신뢰할 수 있는 AI를 적용하는 연구자이자 창업가, 이동현입니다. 여기에는 대표 글과 연구 노트를 모읍니다."
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:madeby2@gmail.com"   # ← 공개용 연락처로 교체 가능
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "글"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "소개"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    identifier = "talks"
+    name = "강연·문의"
+    url = "/talks/"
+    weight = 30
+  [[menu.main]]
+    identifier = "tags"
+    name = "주제"
+    url = "/tags/"
+    weight = 40
+
+[markup.goldmark.renderer]
+  unsafe = true   # 마크다운 내 HTML 허용(이미지 캡션 등)
