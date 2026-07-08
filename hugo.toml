@@ -3,7 +3,7 @@
 baseURL = "https://donghyunlee-ai.github.io/hub/"
 languageCode = "ko-kr"
 defaultContentLanguage = "ko"
-title = "이동현의 신뢰할 수 있는 AI 노트"   # ← 전략-결정서에서 최종 확정 후 교체 가능
+title = "이동현의 신뢰할 수 있는 AI 노트"   # 확정 2026-07-08 (네이버 블로그명과 동일)
 theme = "PaperMod"
 enableRobotsTXT = true
 enableEmoji = true
