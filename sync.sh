@@ -4,7 +4,7 @@
 # 사용법:  bash ~/꿈/site/hub/sync.sh   그 뒤 git add/commit/push 는 본인이 직접.
 set -euo pipefail
 
-SRC="$HOME/꿈/블로그/콘텐츠/posts/"
+SRC="$HOME/꿈/9_발행/콘텐츠/posts/"
 DST="$HOME/꿈/site/hub/content/posts/"
 
 if [ ! -d "$SRC" ]; then
