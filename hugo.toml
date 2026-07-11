@@ -1,6 +1,7 @@
 # Hugo 허브 사이트 설정 — 이동현 박사
-# baseURL: 프로젝트 페이지면 "https://donghyunlee-ai.github.io/hub/", 커스텀 도메인이면 그 주소로 교체.
-baseURL = "https://donghyunlee-ai.github.io/hub/"
+# 커스텀 도메인 확정(2026-07-09). CNAME은 static/CNAME → public/CNAME 으로 복사된다.
+# 배포 워크플로가 --baseURL 을 Pages 설정값으로 덮어쓰므로, 이 값은 로컬 빌드 기준이다.
+baseURL = "https://donghyunlee.kr/"
 languageCode = "ko-kr"
 defaultContentLanguage = "ko"
 title = "이동현의 신뢰할 수 있는 AI 노트"   # 확정 2026-07-08 (네이버 블로그명과 동일)
