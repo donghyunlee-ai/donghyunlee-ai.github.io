@@ -1,0 +1,20 @@
+html {
+  font-family: Pretendard, "Pretendard Variable", -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif;
+  word-break: keep-all;
+}
+
+.prose {
+  line-height: 1.8;
+  overflow-wrap: break-word;
+}
+
+.prose p,
+.prose li {
+  text-wrap: pretty;
+}
+
+article header h1,
+article header h2 {
+  text-wrap: balance;
+}

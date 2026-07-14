@@ -1,9 +1,18 @@
 ---
 title: "강연·문의"
 url: "/talks/"
+date: 2026-07-11
+lastmod: 2026-07-14
 summary: "강연·자문·협업 문의 안내."
 ShowReadingTime: false
 ShowToc: false
+hideMeta: true
+showReadingTime: false
+showTableOfContents: false
+showAuthor: false
+showDate: false
+showDateUpdated: false
+showTaxonomies: false
 ---
 
 ## 강연 주제 (예시)
@@ -12,7 +21,7 @@ ShowToc: false
 - 연구를 현장 서비스로 잇기 (한국인공지능 주식회사 사례)
 
 ## 문의
-- **네이버 블로그 쪽지** 또는 **이메일**(donghyunlee-ai@gmail.com)로 보내주세요.
+- **네이버 블로그 쪽지** 또는 **이메일**(donghyunlee.ai@gmail.com)로 보내주세요.
 - 소속/직함: 한국외국어대학교 Social Science & AI 융합학부 교수 · KAIST 공학박사 / 한국인공지능 주식회사 대표이사
 
 

@@ -1,0 +1,27 @@
+disabled = false
+locale = "ko-KR"
+label = "한국어"
+weight = 1
+title = "이동현의 신뢰할 수 있는 AI 노트"
+
+[params]
+  displayName = "한국어"
+  isoCode = "ko-KR"
+  rtl = false
+  dateFormat = "2006년 1월 2일"
+  description = "현장에서 작동하는 AI를 만듭니다 — 감염병·환경 예측의 설명가능하고 신뢰할 수 있는 AI. 이동현 박사."
+  copyright = "© 2026 이동현"
+
+[params.author]
+  name = "이동현"
+  email = "donghyunlee.ai@gmail.com"
+  image = "profile.jpg"
+  imageQuality = 90
+  headline = "현장에서 작동하는 AI를 만듭니다.  \n감염병·환경 예측의 설명가능하고 신뢰할 수 있는 AI를 연구합니다."
+  bio = "감염병·환경 예측에 설명가능하고 신뢰할 수 있는 AI를 적용하는 연구자이자 창업가."
+  links = [
+    { email = "mailto:donghyunlee.ai@gmail.com" },
+    { github = "https://github.com/donghyunlee-ai" },
+    { blogger = "https://blog.naver.com/donghyunlee-ai" },
+    { link = "https://donghyunlee-lab.github.io/" }
+  ]

@@ -1,0 +1,34 @@
+[[main]]
+  name = "글"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "소개"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "강연·문의"
+  pageRef = "talks"
+  weight = 30
+
+[[main]]
+  name = "주제"
+  pageRef = "tags"
+  weight = 40
+
+[[footer]]
+  name = "글"
+  pageRef = "posts"
+  weight = 10
+
+[[footer]]
+  name = "소개"
+  pageRef = "about"
+  weight = 20
+
+[[footer]]
+  name = "강연·문의"
+  pageRef = "talks"
+  weight = 30

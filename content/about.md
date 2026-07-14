@@ -1,9 +1,18 @@
 ---
 title: "소개"
 url: "/about/"
+date: 2026-07-11
+lastmod: 2026-07-14
 summary: "이동현 — 신뢰할 수 있는 AI를 감염병·환경 현장에 적용하는 연구자이자 창업가."
 ShowReadingTime: false
 ShowToc: false
+hideMeta: true
+showReadingTime: false
+showTableOfContents: false
+showAuthor: false
+showDate: false
+showDateUpdated: false
+showTaxonomies: false
 ---
 
 **현장에서 작동하는 AI를 만듭니다.**
@@ -16,7 +25,4 @@ ShowToc: false
 
 **전문 분야:** 설명가능한 AI(XAI) · 불확실성 정량화 · 감염병/환경 예측 · 딥러닝
 
-**강연·자문·협업 문의:** 네이버 블로그 **쪽지** 또는 **이메일**(donghyunlee-ai@gmail.com)로 보내주세요.
-
-
-<!-- 프로필 사진(헤드샷)을 static/ 에 넣고 여기에 삽입 -->
+**강연·자문·협업 문의:** 네이버 블로그 **쪽지** 또는 **이메일**(donghyunlee.ai@gmail.com)로 보내주세요.
