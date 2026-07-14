@@ -1,4 +1,4 @@
-colorScheme = "ocean"
+colorScheme = "trustworthy"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 
@@ -31,16 +31,16 @@ thumbnailAspectRatio = "1.777"
 [homepage]
   layout = "profile"
   showRecent = true
-  showRecentItems = 3
+  showRecentItems = 1
   showMoreLink = true
   showMoreLinkDest = "/posts/"
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
 
 [article]
   showDate = true
   showDateUpdated = true
-  showAuthor = true
+  showAuthor = false
   showHero = false
   showBreadcrumbs = true
   showDraftLabel = true

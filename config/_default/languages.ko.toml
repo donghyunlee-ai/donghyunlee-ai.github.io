@@ -9,6 +9,7 @@ title = "이동현의 신뢰할 수 있는 AI 노트"
   isoCode = "ko-KR"
   rtl = false
   dateFormat = "2006년 1월 2일"
+  logo = "logo.png"
   description = "현장에서 작동하는 AI를 만듭니다 — 감염병·환경 예측의 설명가능하고 신뢰할 수 있는 AI. 이동현 박사."
   copyright = "© 2026 이동현"
 
@@ -23,5 +24,5 @@ title = "이동현의 신뢰할 수 있는 AI 노트"
     { email = "mailto:donghyunlee.ai@gmail.com" },
     { github = "https://github.com/donghyunlee-ai" },
     { blogger = "https://blog.naver.com/donghyunlee-ai" },
-    { link = "https://donghyunlee-lab.github.io/" }
+    { "graduation-cap" = "https://donghyunlee-lab.github.io/" }
   ]
