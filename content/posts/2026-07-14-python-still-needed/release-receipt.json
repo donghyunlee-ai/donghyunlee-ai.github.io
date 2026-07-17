@@ -1,0 +1,13 @@
+{
+  "files": [
+    "index.md",
+    "그림-01-loud-vs-quiet.png",
+    "그림-02-quiet-error.png",
+    "그림-03-fabricated-data.png",
+    "그림-04-reading-code.png"
+  ],
+  "post": "2026-07-14-python-still-needed",
+  "release_hash": "212bcaffc7764893b2c6740f8d869fa5845fde61d017ded4d233583eb8f7ea70",
+  "schema_version": 1,
+  "synced_at": "2026-07-17T07:35:15+00:00"
+}
