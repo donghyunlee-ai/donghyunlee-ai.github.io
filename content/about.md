@@ -2,7 +2,7 @@
 title: "소개"
 url: "/about/"
 date: 2026-07-11
-lastmod: 2026-07-14
+lastmod: 2026-07-25
 summary: "이동현 — 신뢰할 수 있는 AI를 감염병·환경 현장에 적용하는 연구자이자 창업가."
 ShowReadingTime: false
 ShowToc: false
@@ -51,5 +51,5 @@ showTaxonomies: false
 
 <aside class="contact-panel">
   <h2>강연·자문·연구 협력</h2>
-  <p>네이버 블로그 <strong>쪽지</strong> 또는 <a href="mailto:donghyunlee.ai@gmail.com"><strong>donghyunlee.ai@gmail.com</strong></a>으로 연락해 주세요.</p>
+  <p><a href="mailto:donghyunlee.ai@gmail.com"><strong>donghyunlee.ai@gmail.com</strong></a>으로 연락해 주세요.</p>
 </aside>

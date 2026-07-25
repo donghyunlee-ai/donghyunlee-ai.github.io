@@ -2,7 +2,7 @@
 title: "강연·문의"
 url: "/talks/"
 date: 2026-07-11
-lastmod: 2026-07-14
+lastmod: 2026-07-25
 summary: "강연·자문·협업 문의 안내."
 ShowReadingTime: false
 ShowToc: false
@@ -47,6 +47,6 @@ showTaxonomies: false
 
 <aside class="contact-panel">
   <h2>문의할 때 알려주세요</h2>
-  <p>행사명, 대상, 희망 주제, 일정, 강연 시간과 형식을 적어 <a href="mailto:donghyunlee.ai@gmail.com"><strong>donghyunlee.ai@gmail.com</strong></a> 또는 네이버 블로그 <strong>쪽지</strong>로 보내주세요.</p>
+  <p>행사명, 대상, 희망 주제, 일정, 강연 시간과 형식을 적어 <a href="mailto:donghyunlee.ai@gmail.com"><strong>donghyunlee.ai@gmail.com</strong></a>으로 보내주세요.</p>
   <p><strong>소속:</strong> 한국외국어대학교 Social Science & AI 융합학부 교수 · KAIST 공학박사 / 한국인공지능 주식회사 대표이사</p>
 </aside>

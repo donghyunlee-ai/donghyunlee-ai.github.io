@@ -1,24 +1,14 @@
 #!/usr/bin/env bash
-# 워크스페이스의 발행 원본(콘텐츠/posts) → 허브(content/posts) 동기화.
-# 허브엔 index.md + 이미지만 복사(네이버.md·링크드인.md는 제외).
-# 사용법:  bash ~/꿈/site/hub/sync.sh   그 뒤 git add/commit/push 는 본인이 직접.
+# ~/꿈/site/hub/sync.sh 교체용 안전 래퍼.
+# 전체 포스트 rsync를 하지 않고, publish.py의 승인된 단일 포스트 게이트만 호출한다.
 set -euo pipefail
 
-SRC="$HOME/꿈/9_발행/콘텐츠/posts/"
-DST="$HOME/꿈/site/hub/content/posts/"
+WORKSPACE="${BLOG_WORKSPACE:-$HOME/꿈/9_발행}"
+HUB="${BLOG_HUB:-$HOME/꿈/site/hub}"
 
-if [ ! -d "$SRC" ]; then
-  echo "원본 폴더 없음: $SRC (아직 발행 글이 없습니다)"; exit 0
+if [ "$#" -lt 1 ]; then
+  echo "사용법: bash ~/꿈/site/hub/sync.sh 콘텐츠/posts/<포스트> [--dry-run]" >&2
+  exit 2
 fi
-mkdir -p "$DST"
 
-rsync -av \
-  --include='*/' \
-  --include='index.md' \
-  --include='*.png' --include='*.jpg' --include='*.jpeg' --include='*.webp' --include='*.gif' \
-  --exclude='*' \
-  "$SRC" "$DST"
-
-echo ""
-echo "동기화 완료. 미리보기:  hugo server -s ~/꿈/site/hub"
-echo "배포(본인 실행):  cd ~/꿈/site/hub && git add -A && git commit -m '글 추가' && git push"
+exec python3 "$WORKSPACE/ai-agent/publish.py" sync-hub "$1" --hub "$HUB" "${@:2}"
