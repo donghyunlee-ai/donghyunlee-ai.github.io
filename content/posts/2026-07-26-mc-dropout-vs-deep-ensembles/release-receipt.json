@@ -1,0 +1,12 @@
+{
+  "files": [
+    "index.md",
+    "그림-01-질문.png",
+    "그림-02-개념.png",
+    "그림-03-저장.png"
+  ],
+  "post": "2026-07-26-mc-dropout-vs-deep-ensembles",
+  "release_hash": "ca75fbe3bbd0c80b8adc42908f661f4c2944f85ab1df50e9bf360401ce554691",
+  "schema_version": 1,
+  "synced_at": "2026-07-26T14:32:01+00:00"
+}
