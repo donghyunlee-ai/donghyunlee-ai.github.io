@@ -3,3 +3,120 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
   crossorigin>
+
+{{ with site.Params.analytics.measurementId }}
+<script>
+  (function () {
+    "use strict";
+
+    const measurementId = {{ . | jsonify | safeJS }};
+    const storageKey = "donghyunlee_analytics_consent_v1";
+
+    function getChoice() {
+      try {
+        const value = window.localStorage.getItem(storageKey);
+        return value === "granted" || value === "denied" ? value : null;
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function saveChoice(choice) {
+      try {
+        window.localStorage.setItem(storageKey, choice);
+      } catch (error) {
+        // If local storage is unavailable, honor the choice for this page only.
+      }
+    }
+
+    function deleteAnalyticsCookies() {
+      document.cookie.split(";").forEach(function (cookie) {
+        const name = cookie.split("=")[0].trim();
+        if (!name.startsWith("_ga")) return;
+
+        document.cookie = name + "=; Max-Age=0; path=/; SameSite=Lax";
+        document.cookie =
+          name +
+          "=; Max-Age=0; path=/; domain=.donghyunlee.kr; SameSite=Lax";
+      });
+    }
+
+    function loadAnalytics() {
+      if (window.__donghyunleeAnalyticsLoaded) return;
+      window.__donghyunleeAnalyticsLoaded = true;
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag =
+        window.gtag ||
+        function () {
+          window.dataLayer.push(arguments);
+        };
+
+      window.gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+      });
+      window.gtag("consent", "update", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "granted",
+      });
+      window.gtag("set", "ads_data_redaction", true);
+      window.gtag("js", new Date());
+      window.gtag("config", measurementId, {
+        allow_google_signals: false,
+        allow_ad_personalization_signals: false,
+        cookie_expires: 60 * 24 * 60 * 60,
+        cookie_update: false,
+      });
+
+      const script = document.createElement("script");
+      script.async = true;
+      script.src =
+        "https://www.googletagmanager.com/gtag/js?id=" +
+        encodeURIComponent(measurementId);
+      document.head.appendChild(script);
+    }
+
+    function setChoice(choice) {
+      if (choice !== "granted" && choice !== "denied") return;
+
+      const previousChoice = getChoice();
+      saveChoice(choice);
+
+      if (choice === "granted") {
+        loadAnalytics();
+        return;
+      }
+
+      if (typeof window.gtag === "function") {
+        window.gtag("consent", "update", {
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+          analytics_storage: "denied",
+        });
+      }
+      deleteAnalyticsCookies();
+
+      if (previousChoice === "granted") {
+        window.setTimeout(function () {
+          window.location.reload();
+        }, 50);
+      }
+    }
+
+    window.donghyunleeAnalytics = {
+      getChoice: getChoice,
+      setChoice: setChoice,
+    };
+
+    if (getChoice() === "granted") {
+      loadAnalytics();
+    }
+  })();
+</script>
+{{ end }}

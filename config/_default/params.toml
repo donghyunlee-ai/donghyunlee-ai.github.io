@@ -15,6 +15,9 @@ defaultSocialImage = "og-default.png"
 hotlinkFeatureImage = false
 thumbnailAspectRatio = "1.777"
 
+[analytics]
+  measurementId = "G-39GT2JG4DL"
+
 [seo]
   metaDescriptionOrder = ["summary", "description", "site"]
 
