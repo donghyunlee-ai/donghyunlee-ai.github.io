@@ -1,0 +1,13 @@
+{
+  "files": [
+    "index.md",
+    "그림-01-질문.png",
+    "그림-02-이질성-사분위.png",
+    "그림-03-한계.png",
+    "그림-04-저장.png"
+  ],
+  "post": "2026-08-11-heterogeneous-transfer-learning",
+  "release_hash": "437dbbafc885f9745070992781fad6fb19311b0235236475ae0cda66b1c94534",
+  "schema_version": 1,
+  "synced_at": "2026-08-11T07:44:45+00:00"
+}
