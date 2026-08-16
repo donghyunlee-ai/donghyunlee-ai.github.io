@@ -7,5 +7,5 @@ description: "현장에서 작동하는 AI를 만듭니다 — 감염병·환경
 
 <div class="home-actions not-prose" aria-label="주요 링크">
   <a class="primary-action" href="/posts/">최근 글 읽기</a>
-  <a class="secondary-action" href="/talks/">강연·협업 문의</a>
+  <a class="secondary-action" href="/about/">소개 보기</a>
 </div>

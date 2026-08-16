@@ -9,15 +9,9 @@
   weight = 20
 
 [[main]]
-  name = "강연·문의"
-  pageRef = "talks"
+  name = "도서"
+  pageRef = "books"
   weight = 30
-
-[[main]]
-  name = "주제"
-  title = "주제"
-  pageRef = "tags"
-  weight = 40
 
 [[footer]]
   name = "글"
@@ -30,8 +24,8 @@
   weight = 20
 
 [[footer]]
-  name = "강연·문의"
-  pageRef = "talks"
+  name = "도서"
+  pageRef = "books"
   weight = 30
 
 [[footer]]

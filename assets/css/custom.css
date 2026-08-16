@@ -150,6 +150,18 @@ main:has(.home-actions) .article-link--simple .article-link__summary {
   margin: 1.25rem 0 2.25rem;
 }
 
+.profile-card-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.book-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2.25rem;
+}
+
+.book-card,
 .profile-card,
 .talk-card {
   border: 1px solid rgb(var(--color-neutral-200));
@@ -158,12 +170,14 @@ main:has(.home-actions) .article-link--simple .article-link__summary {
   padding: 1.15rem;
 }
 
+.dark .book-card,
 .dark .profile-card,
 .dark .talk-card {
   border-color: rgb(var(--color-neutral-600));
   background: rgb(var(--color-neutral-700));
 }
 
+.book-card .eyebrow,
 .profile-card .eyebrow,
 .talk-card .eyebrow {
   margin: 0 0 0.35rem;
@@ -174,11 +188,13 @@ main:has(.home-actions) .article-link--simple .article-link__summary {
   text-transform: uppercase;
 }
 
+.dark .book-card .eyebrow,
 .dark .profile-card .eyebrow,
 .dark .talk-card .eyebrow {
   color: rgb(var(--color-primary-300));
 }
 
+.book-card h3,
 .profile-card h3,
 .talk-card h3 {
   margin: 0;
@@ -186,6 +202,7 @@ main:has(.home-actions) .article-link--simple .article-link__summary {
   line-height: 1.45;
 }
 
+.book-card p:last-child,
 .profile-card p:last-child,
 .talk-card p:last-child {
   margin: 0.55rem 0 0;
@@ -194,9 +211,32 @@ main:has(.home-actions) .article-link--simple .article-link__summary {
   line-height: 1.65;
 }
 
+.dark .book-card p:last-child,
 .dark .profile-card p:last-child,
 .dark .talk-card p:last-child {
   color: rgb(var(--color-neutral-300));
+}
+
+.book-card .book-subtitle {
+  margin: 0.35rem 0 0;
+  color: rgb(var(--color-primary-700));
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.dark .book-card .book-subtitle {
+  color: rgb(var(--color-primary-300));
+}
+
+.book-card .book-meta {
+  margin: 0.75rem 0 0;
+  color: rgb(var(--color-neutral-500));
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.dark .book-card .book-meta {
+  color: rgb(var(--color-neutral-400));
 }
 
 .expertise-list {
@@ -384,6 +424,7 @@ main:has(.home-actions) .article-link--simple .article-link__summary {
     line-height: 1.3;
   }
 
+  .book-card-grid,
   .profile-card-grid,
   .talk-card-grid {
     grid-template-columns: 1fr;

@@ -13,6 +13,7 @@ showAuthor: false
 showDate: false
 showDateUpdated: false
 showTaxonomies: false
+showPagination: false
 ---
 
 이동현(이하 “운영자”)은 `donghyunlee.kr` 이용자의 개인정보를 중요하게 생각하며, 개인정보 보호법 등 관련 법령에 따라 다음과 같이 개인정보 처리방침을 공개합니다.

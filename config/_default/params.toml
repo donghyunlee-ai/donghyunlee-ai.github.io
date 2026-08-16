@@ -53,9 +53,9 @@ thumbnailAspectRatio = "1.777"
   showReadingTime = true
   showTableOfContents = true
   showRelatedContent = false
-  showTaxonomies = true
-  showCategories = true
-  showTags = true
+  showTaxonomies = false
+  showCategories = false
+  showTags = false
   showWordCount = false
   showZenMode = false
 

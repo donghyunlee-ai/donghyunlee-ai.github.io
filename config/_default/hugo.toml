@@ -8,6 +8,7 @@ enableEmoji = true
 buildDrafts = false
 buildFuture = false
 summaryLength = 30
+disableKinds = ["taxonomy", "term"]
 
 [pagination]
   pagerSize = 10
