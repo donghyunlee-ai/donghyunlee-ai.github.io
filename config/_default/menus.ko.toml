@@ -32,8 +32,3 @@
   name = "개인정보 처리방침"
   pageRef = "privacy"
   weight = 40
-
-[[footer]]
-  name = "쿠키 설정"
-  url = "#cookie-settings"
-  weight = 50
