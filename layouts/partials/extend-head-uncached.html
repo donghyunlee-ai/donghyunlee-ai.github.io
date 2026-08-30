@@ -1,0 +1,7 @@
+{{- if .IsTranslated -}}
+  {{- range .AllTranslations -}}
+    {{- if eq .Language.Lang "ko" -}}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

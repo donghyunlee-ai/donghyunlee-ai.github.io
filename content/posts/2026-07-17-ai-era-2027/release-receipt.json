@@ -1,12 +1,15 @@
 {
-  "files": [
-    "index.md",
-    "그림-01-질문.png",
-    "그림-02-개념.png",
-    "그림-03-저장.png"
-  ],
+  "files": {
+    "index.en.md": "ec6e0101a6b25531a33df14301f7324e09a85d87afb63eea63a6c58a1b75637c",
+    "index.md": "b5d4a1820b92f2456743226c5902e2ca1a743172dade494ff771b34b7a3cdb01",
+    "그림-01-질문.png": "ab5f0084218d63670fba6b8a2d31583fed285bd6c30ae4b60d4ef85f0ae917cf",
+    "그림-02-개념.en.png": "374ef2da4bb670d6424586296e88d1127976c5cce9944d04edf18f173cd6e3c8",
+    "그림-02-개념.png": "66cc84bdc518f32cde7d73931a039dfebc10c388a2fa7b5458a0e516efc4e389",
+    "그림-03-저장.en.png": "3cb7b5bc7c78405d4aef7d12e4a6881f4d3d1447376ee2895ac3e3f238fe8f8f",
+    "그림-03-저장.png": "648540a7f5b9001bb958c4b30f04b410b2a15535da30c028dabf934733040b79"
+  },
   "post": "2026-07-17-ai-era-2027",
-  "release_hash": "de39275e63f3d3fc322445ae5dd56361615c7be331525fd4c166157d53d4eeef",
-  "schema_version": 1,
-  "synced_at": "2026-08-21T06:06:10+00:00"
+  "release_hash": "b7629f8b49228d394b38083c27e5a02b935610ebc36ea1eb9b1dcae7e35dd137",
+  "schema_version": 2,
+  "synced_at": "2026-08-30T01:23:04+00:00"
 }

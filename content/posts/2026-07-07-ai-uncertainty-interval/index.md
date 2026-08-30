@@ -4,8 +4,8 @@ date: 2026-07-12
 lastmod: 2026-07-12
 tags: ["AI 불확실성", "신뢰구간", "불확실성 정량화", "신뢰할 수 있는 AI", "설명가능한 AI", "머신러닝"]
 summary: "통계학이 점추정에서 신뢰구간으로 넘어갔듯, AI도 '답 하나'가 아니라 '답을 얼마나 믿을 수 있는가'를 말해야 하는 시대로 넘어가고 있습니다. 신뢰할 수 있는 AI 시리즈 1편."
-featureimage: "featured.png"
-images: ["featured.png"]
+featureimage: "그림-01-점추정-vs-구간.png"
+images: ["그림-01-점추정-vs-구간.png"]
 draft: false # 2026-07-12 네이버 발행 완료. canonical은 자기 자신(허브) — 네이버로 걸지 않는다.
 ---
 
@@ -35,7 +35,7 @@ draft: false # 2026-07-12 네이버 발행 완료. canonical은 자기 자신(�
 
 대답이 두 가지 있을 수 있습니다. 하나는 **"3시 정각"**. 다른 하나는 **"3시에서 3시 반 사이, 거의 확실히"**.
 
-첫 번째가 통계학에서 말하는 <strong>점추정(point estimate)</strong>입니다. 가장 그럴듯한 값 하나를 딱 찍어 주는 것이지요. 두 번째가 <strong>구간추정(interval estimate)</strong>입니다. 답을 범위로 주되, 그 범위를 얼마나 믿어도 되는지까지 함께 주는 방식입니다.
+첫 번째가 통계학에서 말하는 **점추정(point estimate)**입니다. 가장 그럴듯한 값 하나를 딱 찍어 주는 것이지요. 두 번째가 **구간추정(interval estimate)**입니다. 답을 범위로 주되, 그 범위를 얼마나 믿어도 되는지까지 함께 주는 방식입니다.
 
 우리는 일상에서 이미 구간으로 말합니다. 길이 막힐지 모르니까요. 그런데 이상하게도, **지금의 AI 대부분은 여전히 점으로만 답합니다.** "내일 이 지점의 녹조 농도는 42입니다." 끝. 이 값을 얼마나 믿어야 하는지는 말해 주지 않습니다.
 
@@ -48,7 +48,7 @@ draft: false # 2026-07-12 네이버 발행 완료. canonical은 자기 자신(�
 - 실제 값은 42 **주변 어디쯤**에 있는가?
 - 그 "주변"은 **얼마나 넓은가**?
 
-같은 42라도 "40–44 사이일 가능성이 높다"와 "20–70 사이 어디일지 모르겠다"는 전혀 다른 이야기입니다. 앞의 42는 행동의 근거가 되지만, 뒤의 42는 참고 사항일 뿐입니다. **점 하나만 보여 주면 이 둘이 구분되지 않습니다.** 숫자가 명료해 보일수록, 확신의 착시는 커집니다.
+같은 42라도 "40~44 사이일 가능성이 높다"와 "20~70 사이 어디일지 모르겠다"는 전혀 다른 이야기입니다. 앞의 42는 행동의 근거가 되지만, 뒤의 42는 참고 사항일 뿐입니다. **점 하나만 보여 주면 이 둘이 구분되지 않습니다.** 숫자가 명료해 보일수록, 확신의 착시는 커집니다.
 
 ## "작년에 92% 맞혔습니다"로는 설득되지 않습니다
 
@@ -72,7 +72,7 @@ draft: false # 2026-07-12 네이버 발행 완료. canonical은 자기 자신(�
 
 사실 통계학은 이 문제를 100년 전에 이미 통과했습니다.
 
-20세기 초의 통계학은 "가장 좋은 값 하나를 어떻게 찾을 것인가", 즉 점추정의 이론을 다듬는 데 집중했습니다. 흐름을 바꾼 사람은 폴란드 태생의 통계학자 <strong>예르지 네이만(Jerzy Neyman)</strong>입니다. 그는 1934년 논문에서 **신뢰구간(confidence interval)** 이라는 개념을 처음 내놓았고, 1937년 논문에서 그것을 하나의 이론으로 체계화했습니다.<sup>[1][2]</sup>
+20세기 초의 통계학은 "가장 좋은 값 하나를 어떻게 찾을 것인가", 즉 점추정의 이론을 다듬는 데 집중했습니다. 흐름을 바꾼 사람은 폴란드 태생의 통계학자 **예르지 네이만(Jerzy Neyman)**입니다. 그는 1934년 논문에서 **신뢰구간(confidence interval)** 이라는 개념을 처음 내놓았고, 1937년 논문에서 그것을 하나의 이론으로 체계화했습니다.<sup>[1][2]</sup>
 
 "답 하나"가 아니라 "답이 들어 있을 범위 + 그 절차를 믿을 수 있는 정도"를 함께 보고하는 틀이 이때 생겼습니다.
 
@@ -84,7 +84,7 @@ draft: false # 2026-07-12 네이버 발행 완료. canonical은 자기 자신(�
 
 지금의 AI, 특히 딥러닝 모델의 기본 출력은 점추정입니다. 내일의 농도, 다음 주의 발생 위험, 이 영상의 판독 결과 — 대부분 값 하나 또는 라벨 하나로 나옵니다.
 
-그래서 최근 연구 흐름 중 하나가 <strong>불확실성 정량화(uncertainty quantification)</strong>입니다. 모델이 답과 함께 "이 답을 이 정도로 확신한다/못 한다"를 산출하게 만드는 것이지요. 이 주제를 정리한 종합 리뷰 논문들이 나와 있고, 그중 두 편은 각각 2천 회, 1천 회 이상 인용됐습니다(2026년 7월 기준).<sup>[3][4]</sup> 활발히 다뤄지는 분야라고 말할 수 있는 근거입니다.
+그래서 최근 연구 흐름 중 하나가 **불확실성 정량화(uncertainty quantification)**입니다. 모델이 답과 함께 "이 답을 이 정도로 확신한다/못 한다"를 산출하게 만드는 것이지요. 이 주제를 정리한 종합 리뷰 논문들이 나와 있고, 그중 두 편은 각각 2천 회, 1천 회 이상 인용됐습니다(2026년 7월 기준).<sup>[3][4]</sup> 활발히 다뤄지는 분야라고 말할 수 있는 근거입니다.
 
 제 표현으로 정리하면 이렇습니다. **통계학이 점추정에서 신뢰구간으로 넘어갔듯이, AI도 점추정의 시대에서 신뢰구간의 시대로 넘어가고 있습니다.** "내일 녹조 농도는 42"가 아니라, "42 ± 얼마, 이 정도 신뢰수준으로"가 예측의 본질이 되어 가는 전환입니다.
 
@@ -108,18 +108,18 @@ draft: false # 2026-07-12 네이버 발행 완료. canonical은 자기 자신(�
 
 **"그래서 그 예측으로 뭘 할 수 있는데요?"**
 
-예측 자체는 행동이 아닙니다. 예측을 받아 무엇을 바꿀 것인가 — 흔히 <strong>개입(intervention)</strong>이라고 부르는 그 결정이 이어져야 비로소 값이 생깁니다. 그리고 그 결정을 가르는 것이 바로 **불확실성의 폭**입니다.
+예측 자체는 행동이 아닙니다. 예측을 받아 무엇을 바꿀 것인가 — 흔히 **개입(intervention)**이라고 부르는 그 결정이 이어져야 비로소 값이 생깁니다. 그리고 그 결정을 가르는 것이 바로 **불확실성의 폭**입니다.
 
 - 구간이 **좁으면**: 예측을 근거로 바로 움직일 수 있습니다.
 - 구간이 **넓으면**: 추가 관측을 하거나, 최악의 경우에 대비한 보수적 대응을 택하게 됩니다.
 
-같은 예측값 42라도, 구간이 40–44냐 20–70이냐에 따라 **다음에 할 일이 달라집니다.** 앞의 경우엔 계획대로 가고, 뒤의 경우엔 한 번 더 재 보거나 여유를 둡니다.
+같은 예측값 42라도, 구간이 40~44냐 20~70이냐에 따라 **다음에 할 일이 달라집니다.** 앞의 경우엔 계획대로 가고, 뒤의 경우엔 한 번 더 재 보거나 여유를 둡니다.
 
 그러니 **구간은 모델의 겸손 표시가 아니라, 사용자의 행동 지침입니다.** 점추정만 주는 모델은 이 판단을 전부 사용자의 감에 떠넘기는 셈입니다. 예측은 했는데 무엇을 해야 할지는 알려주지 않는, 반쪽짜리 산출물이 됩니다.
 
 ![같은 예측값 42, 다른 결정 — 점추정은 판단 근거를 주지 않고, 구간의 폭이 다음 행동을 가른다](그림-01-점추정-vs-구간.png)
 
-*그림 1. 같은 42라도 구간의 폭에 따라 다음 행동이 갈립니다. 점추정만으로는 이 판단을 할 수 없습니다.*
+_그림 1. 같은 42라도 구간의 폭에 따라 다음 행동이 갈립니다. 점추정만으로는 이 판단을 할 수 없습니다._
 
 ## 불확실성이 크면 나쁜 모델일까요
 
@@ -149,17 +149,15 @@ draft: false # 2026-07-12 네이버 발행 완료. canonical은 자기 자신(�
 
 ## 출처
 
-[1] Neyman, J. (1934). *On the Two Different Aspects of the Representative Method: The Method of Stratified Sampling and the Method of Purposive Selection.* Journal of the Royal Statistical Society, 97(4), 558–625. doi:10.2307/2342192 — 신뢰구간 개념이 처음 제시된 논문.
+[1] Neyman, J. (1934). _On the Two Different Aspects of the Representative Method: The Method of Stratified Sampling and the Method of Purposive Selection._ Journal of the Royal Statistical Society, 97(4), 558–625. doi:10.2307/2342192 — 신뢰구간 개념이 처음 제시된 논문.
 
-[2] Neyman, J. (1937). *Outline of a Theory of Statistical Estimation Based on the Classical Theory of Probability.* Philosophical Transactions of the Royal Society A, 236(767), 333–380. doi:10.1098/rsta.1937.0005 — 신뢰구간을 이론으로 체계화한 논문.
+[2] Neyman, J. (1937). _Outline of a Theory of Statistical Estimation Based on the Classical Theory of Probability._ Philosophical Transactions of the Royal Society A, 236(767), 333–380. doi:10.1098/rsta.1937.0005 — 신뢰구간을 이론으로 체계화한 논문.
 
-[3] Abdar, M. et al. (2021). *A review of uncertainty quantification in deep learning: Techniques, applications and challenges.* Information Fusion, 76, 243–297. doi:10.1016/j.inffus.2021.05.008
+[3] Abdar, M. et al. (2021). _A review of uncertainty quantification in deep learning: Techniques, applications and challenges._ Information Fusion, 76, 243–297. doi:10.1016/j.inffus.2021.05.008
 
-[4] Gawlikowski, J. et al. (2023). *A survey of uncertainty in deep neural networks.* Artificial Intelligence Review, 56, 1513–1589. doi:10.1007/s10462-023-10562-9
+[4] Gawlikowski, J. et al. (2023). _A survey of uncertainty in deep neural networks._ Artificial Intelligence Review, 56, 1513–1589. doi:10.1007/s10462-023-10562-9
 
 [5] Regulation (EU) 2024/1689 (EU AI Act), Article 6 및 Annex III. 부속서 III 제2항: 핵심 인프라 — 물·가스·난방·전기 공급의 관리·운영에 쓰이는 안전 부품. https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng
-
----
 
 ## 이해관계 및 책임 고지
 
@@ -167,12 +165,10 @@ draft: false # 2026-07-12 네이버 발행 완료. canonical은 자기 자신(�
 
 **이해관계 및 책임 고지**
 
-이동현은 한국외국어대학교 교수이자 한국인공지능㈜(AI Korea)의 대표입니다.
+이동현은 한국외국어대학교 Social Science & AI융합학부 교수이자 한국인공지능 주식회사(AI Korea Inc.)의 대표입니다.
 이 글의 견해는 저자 개인의 것이며, 소속 기관이나 연구과제 발주처의 공식 입장이 아닙니다.
 
 이 글은 일반적인 정보 제공과 교육을 목적으로 합니다. 특정 사안에 대한 자문이나
 정책 권고가 아니며, 실제 의사결정의 단독 근거로 사용될 수 없습니다.
 
 사실에 오류가 있다면 알려주십시오. 원문을 고치고, 고친 사실을 함께 밝히겠습니다.
-
----

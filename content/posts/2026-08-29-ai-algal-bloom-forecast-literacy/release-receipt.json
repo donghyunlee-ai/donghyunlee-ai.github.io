@@ -1,12 +1,16 @@
 {
-  "files": [
-    "index.md",
-    "그림-01-훅.png",
-    "그림-02-개념.png",
-    "그림-03-저장.png"
-  ],
+  "files": {
+    "index.en.md": "56b57944a1d3d387578abd42d259347c535d7ad470587cb6b9b51a12ad59138b",
+    "index.md": "32b713643e67602aca27d94ae8d2d4ead37aab49060f316737803db8d52c615f",
+    "그림-01-훅.en.png": "f1de9b742d646f945773b35bccc872e699a2b18cec8ca9b8a3cd467b5df649af",
+    "그림-01-훅.png": "d6126c042ffaa2b4888ea61e06a5cd4045174726fe5056c687540a40f324997c",
+    "그림-02-개념.en.png": "201a7725d317c741ba5198eafe645d8f86f4103ff162ed55aabdf6f1d7a35b86",
+    "그림-02-개념.png": "5dc2f5cb866cb119511a900bc89641924533b1897b38f5f187880fb881c136c0",
+    "그림-03-저장.en.png": "1558efb92eb691e212e5d80baadeb57ff5a6a6c12a10f57b2c198099eed3600e",
+    "그림-03-저장.png": "79ea3844e03b22f9b332bc6d3f85f4f3ae10d44ace26f37a48c0ed959fba9658"
+  },
   "post": "2026-08-29-ai-algal-bloom-forecast-literacy",
-  "release_hash": "155aa3d90a4a50040c7bfec1fc39e2a427855e40d0096fee0b950620dc98b2dc",
-  "schema_version": 1,
-  "synced_at": "2026-08-29T13:01:38+00:00"
+  "release_hash": "7afda8c445b40dc93e6c0126dfa45aa514399c50770ebe04306395abea38c6ce",
+  "schema_version": 2,
+  "synced_at": "2026-08-30T01:23:04+00:00"
 }

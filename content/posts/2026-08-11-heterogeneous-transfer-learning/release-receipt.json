@@ -1,13 +1,16 @@
 {
-  "files": [
-    "index.md",
-    "그림-01-질문.png",
-    "그림-02-이질성-사분위.png",
-    "그림-03-한계.png",
-    "그림-04-저장.png"
-  ],
+  "files": {
+    "index.en.md": "f1e4ef8ac8f901de93fa5422b72e4537a12dfe167c0695b6a71fd846190b81a7",
+    "index.md": "07034a6b08b86e9fe7c0e1e5995257c81f5192c27338180dd26e9cab39256e06",
+    "그림-01-질문.png": "1d59105737c138fda7e2cc8d2edda8f46434e8db12292df710b5be427bf57ce0",
+    "그림-02-이질성-사분위.en.png": "75b1ddba5f56449a91785e593039958931f778873650d8c57a8a3706320bcdde",
+    "그림-02-이질성-사분위.png": "7ec6dbbe9905864da3906e1339d224bcfe98c979c5cdb8cae821dc49d7877509",
+    "그림-03-한계.png": "afb67445eb8f148f6f8c066e4fbfa8cda52f13954f76e2930ba7786e2a40f0af",
+    "그림-04-저장.en.png": "d733f6cbfcfe1ae0eb1704666b6e12ba9f73434cf6d75d97dd3fc12d1c9537eb",
+    "그림-04-저장.png": "932a5d53e520679de8c70cb6a48e4879adbef8a549cabaf28c52191666e28e8d"
+  },
   "post": "2026-08-11-heterogeneous-transfer-learning",
-  "release_hash": "a54a232946c93fe74d6b8b47caac7c64c427b569a029b93363c0741b28b3677f",
-  "schema_version": 1,
-  "synced_at": "2026-08-21T06:06:10+00:00"
+  "release_hash": "5d9e4d0b36dab0abf51d64de4a8789371adc2509f43cc9c66e8dcc88fca91271",
+  "schema_version": 2,
+  "synced_at": "2026-08-30T01:23:04+00:00"
 }

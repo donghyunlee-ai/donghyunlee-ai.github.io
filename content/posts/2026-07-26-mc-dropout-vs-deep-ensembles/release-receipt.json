@@ -1,12 +1,16 @@
 {
-  "files": [
-    "index.md",
-    "그림-01-질문.png",
-    "그림-02-개념.png",
-    "그림-03-저장.png"
-  ],
+  "files": {
+    "index.en.md": "9f1671fcfad68f6d82707032071313a72b7d69af11895ba832c93c3c94434bcf",
+    "index.md": "59c65eef71e7b8cf381109ac1a465f6ecf571498a619e37addface88dd89f491",
+    "그림-01-질문.en.png": "e0f47f3498d0ca89c7d64b3a1fbb5ae9cb3cbe3903cc2d0bb98e5885d4568f70",
+    "그림-01-질문.png": "bbcd3a5ddda056a45af9d8ad46e18ff9865e90a4561094fc1bb5969251170bc3",
+    "그림-02-개념.en.png": "51d35aa5fdb274be9f2f1eb6b38537074013d102114a8bd6f9ad1b88c41ebf8d",
+    "그림-02-개념.png": "6594871f38d6d8068676e1152d9e8da5f2234b11e42f5dd787b34d10004f2477",
+    "그림-03-저장.en.png": "ad6239efa7694b19ef33a4886d7079f653a72f64bd4017847dca88f6dfae9094",
+    "그림-03-저장.png": "da4d4a04bb7e2b720a99e8d7ee0be99b88453e266afae535b12a4c034048b36e"
+  },
   "post": "2026-07-26-mc-dropout-vs-deep-ensembles",
-  "release_hash": "fb8972232c9e88b020e0d50e854c8c2db0a4986706b2a80a65b85c4c2115e22f",
-  "schema_version": 1,
-  "synced_at": "2026-08-21T06:06:10+00:00"
+  "release_hash": "447528e6eb2215994fc7b759e14c98f379493455d5efd04fb3079ac6c5bb65bd",
+  "schema_version": 2,
+  "synced_at": "2026-08-30T01:23:04+00:00"
 }

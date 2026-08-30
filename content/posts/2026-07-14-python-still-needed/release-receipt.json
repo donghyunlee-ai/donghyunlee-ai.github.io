@@ -1,13 +1,18 @@
 {
-  "files": [
-    "index.md",
-    "그림-01-loud-vs-quiet.png",
-    "그림-02-quiet-error.png",
-    "그림-03-fabricated-data.png",
-    "그림-04-reading-code.png"
-  ],
+  "files": {
+    "index.en.md": "efcacc66412630d79b8bf688732ccd7de2104402999a0159f2454d3beec9bf21",
+    "index.md": "16809a9b26f7a7cf0f560d0c5e767c8500998079efeb4d4f508c250e0e7ab141",
+    "그림-01-loud-vs-quiet.en.png": "5a9492d162dd5da7b2cadcd141cce0f3fc1348195475184d9d9eff431ee8297f",
+    "그림-01-loud-vs-quiet.png": "2f858a0286a46eacba8e6afdf6aab05cac3f5e6e8ca3e025c95f2dcb5adff260",
+    "그림-02-quiet-error.en.png": "0d3be942a30b3c14c58cf025401a1c856e60af27fd12fadfea45ba739ef48ca2",
+    "그림-02-quiet-error.png": "4daa7ba023e4b2f9b790e874ab0ce8620a05107d51e7880636e85d9a3390ec6a",
+    "그림-03-fabricated-data.en.png": "e558d3277e1c94f637b572115c75cc47f907b2c92a3b7943308dc76494f96e3c",
+    "그림-03-fabricated-data.png": "f8fcfa7ce7fe1d1e3ec6caf1db8bcc13202fdd72210128401a09059b2c75b042",
+    "그림-04-reading-code.en.png": "0dd226d9f9b5a49696c91671ca36999f1e13ccb97f99b94a8da1d604e042c153",
+    "그림-04-reading-code.png": "66dfb1dd9645658880d9959b945acc9a3730708bab167869e3b8231160b7b2ed"
+  },
   "post": "2026-07-14-python-still-needed",
-  "release_hash": "20e5ce08f7d9f61438dc0c1d387eec5f4eb1b567dde407196a8d0e68a1952c5a",
-  "schema_version": 1,
-  "synced_at": "2026-08-21T06:06:10+00:00"
+  "release_hash": "062b7b73f311840a733c141afc4f4fffbe64db1bb43e22e0905f5c60c8815754",
+  "schema_version": 2,
+  "synced_at": "2026-08-30T01:23:04+00:00"
 }

@@ -1,12 +1,16 @@
 {
-  "files": [
-    "index.md",
-    "그림-01-훅.png",
-    "그림-02-개념.png",
-    "그림-03-저장.png"
-  ],
+  "files": {
+    "index.en.md": "f7ddd8541c01a25c51e0caa61da7e77b7b1982734f5de80d963773946e9ba4d2",
+    "index.md": "43b0415fe294969c2863cc2b7ac46d25285ed827a6fdadc1b3d0bb4ab507b7bb",
+    "그림-01-훅.en.png": "02c799c4b69469d98d342bc6ad9508542ee2b7777cd777c36f05382919103b37",
+    "그림-01-훅.png": "d3e3b1151f4b58b8636c8f7f5a07b3f34dc02dfa9b202dfadb496c4fc4321ef7",
+    "그림-02-개념.en.png": "4c2151790141b7b5950ec5368218b2c92d1bd4e92c3b01934683b6db320d185d",
+    "그림-02-개념.png": "14322eed84ce4d7aa0f212bdb103eefac5282e4d98b3e0d05234de8195a7350b",
+    "그림-03-저장.en.png": "77af0586760b2c596f7d5cab08996f71fd179d5677dc82e65cf407fc2d3b7363",
+    "그림-03-저장.png": "8e4aa12534a47b82cebc7f7675a337154d973883c523ebcbe2a11ff1ad477de5"
+  },
   "post": "2026-08-25-ai-code-quiet-errors",
-  "release_hash": "2616c4ea03a3149777a719570a416e27d1bd4141483cd25b86796c24c3581d55",
-  "schema_version": 1,
-  "synced_at": "2026-08-21T15:54:19+00:00"
+  "release_hash": "693774d4120406444d67d94ee89cc5a7a6b2d045911ffc8faa95bc016d43ae03",
+  "schema_version": 2,
+  "synced_at": "2026-08-30T01:23:04+00:00"
 }

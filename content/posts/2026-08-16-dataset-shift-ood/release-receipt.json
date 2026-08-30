@@ -1,12 +1,16 @@
 {
-  "files": [
-    "index.md",
-    "그림-01-질문.png",
-    "그림-02-개념.png",
-    "그림-03-저장.png"
-  ],
+  "files": {
+    "index.en.md": "3b0cb6e938c70bd1486f3a8ed841e56ffb680b144ea62605ac560e787d8c2855",
+    "index.md": "ff32eac67bf55c4d567689f18735729b6f9f00fe6657cddc3a24c517f6ad7d46",
+    "그림-01-질문.en.png": "6b92e5c1fffc6793e1e0d1aa7d23cf691c0e55cf65e2989fdd835938af3d766f",
+    "그림-01-질문.png": "2c95a7c2aa62b40506b946ba0534b14a07f0e9c8f9c85998e24e342abdfcd04c",
+    "그림-02-개념.en.png": "575f38f9f52fabd30e4c3c1e37943ad711850af99d53459ebbc122ff1c1cbad1",
+    "그림-02-개념.png": "72a8f4be8eae644b07b12caf811f6a55eca292715851da68b4364d160469baee",
+    "그림-03-저장.en.png": "1184e9b2c8a338f7f9783a5863504859789a8826730af587497589499c2692ed",
+    "그림-03-저장.png": "0d97975d78d1faa916c06a07424e37d4360acbb46ab6533902b7fdf5ba97186b"
+  },
   "post": "2026-08-16-dataset-shift-ood",
-  "release_hash": "33c12047c047227a024ee70aec3823c00b6d84b6d6fb5b2612be713277dcd7c0",
-  "schema_version": 1,
-  "synced_at": "2026-08-21T06:06:10+00:00"
+  "release_hash": "54c6f2739f33f904ffa898700a7e7bacfa8c507d9d8e50b4301ebf541f75d99c",
+  "schema_version": 2,
+  "synced_at": "2026-08-30T01:23:04+00:00"
 }

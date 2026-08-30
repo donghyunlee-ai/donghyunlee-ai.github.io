@@ -1,0 +1,28 @@
+disabled = false
+locale = "en-US"
+label = "English"
+weight = 2
+title = "Donghyun Lee’s Trustworthy AI Notes"
+
+[params]
+  displayName = "English"
+  isoCode = "en-US"
+  rtl = false
+  dateFormat = "January 2, 2006"
+  logo = "logo.png"
+  description = "I build AI that works in the real world — explainable and trustworthy AI for infectious-disease and environmental forecasting."
+  copyright = "© 2026 Donghyun Lee"
+
+[params.author]
+  name = "Donghyun Lee"
+  email = "donghyunlee.ai@gmail.com"
+  image = "profile.jpg"
+  imageQuality = 90
+  headline = "I build AI that works in the real world.  \nI study explainable and trustworthy AI for infectious-disease and environmental forecasting."
+  bio = "Researcher and entrepreneur applying explainable and trustworthy AI to infectious-disease and environmental forecasting."
+  links = [
+    { email = "mailto:donghyunlee.ai@gmail.com" },
+    { github = "https://github.com/donghyunlee-ai" },
+    { blogger = "https://blog.naver.com/donghyunlee-ai" },
+    { "graduation-cap" = "https://donghyunlee-lab.github.io/" }
+  ]

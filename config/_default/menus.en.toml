@@ -1,0 +1,34 @@
+[[main]]
+  name = "Writing"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "Books"
+  pageRef = "books"
+  weight = 30
+
+[[footer]]
+  name = "Writing"
+  pageRef = "posts"
+  weight = 10
+
+[[footer]]
+  name = "About"
+  pageRef = "about"
+  weight = 20
+
+[[footer]]
+  name = "Books"
+  pageRef = "books"
+  weight = 30
+
+[[footer]]
+  name = "Privacy Policy"
+  pageRef = "privacy"
+  weight = 40

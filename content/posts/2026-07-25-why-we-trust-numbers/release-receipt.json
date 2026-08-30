@@ -1,12 +1,16 @@
 {
-  "files": [
-    "index.md",
-    "그림-01-질문.png",
-    "그림-02-개념.png",
-    "그림-03-저장.png"
-  ],
+  "files": {
+    "index.en.md": "63d67312e6a37c695ee0fdc7407ae0581bd9e1c66157fc46590fb45898e79ce2",
+    "index.md": "b6955c8aa8347df155c5785092ebbbc98c8cbf79098b5e8eb399f60d05d03931",
+    "그림-01-질문.en.png": "e155f519c341b09a91d2afc83ae953075602aa0c2fbbc8317b4e49f6a0fb6a9f",
+    "그림-01-질문.png": "b1ae23e553812264dc5ccfa96da1a5c7016fe09ab5e8baab433e64c7a45014dd",
+    "그림-02-개념.en.png": "75339e9df2b2b2b14bc2efc1f8de541d5a3a80cb28d277caf7b203d466714ead",
+    "그림-02-개념.png": "979ad5eff6edc206fed88d471705c3b42ab708c6621cb142c6bef24dd2a3709f",
+    "그림-03-저장.en.png": "f480ecd42d1a243912d82ecb29107e4f23cce5b32f6c9d211d5240b0885665e6",
+    "그림-03-저장.png": "0888370f491f720058ff6e326ec54d9dbd38d127a852c2826393c2e69e4c2211"
+  },
   "post": "2026-07-25-why-we-trust-numbers",
-  "release_hash": "e707ef9954fc399ab39ce3db2270352bbf5c0f08357858538965a066ba4a7a23",
-  "schema_version": 1,
-  "synced_at": "2026-08-21T06:06:10+00:00"
+  "release_hash": "1e3b294544d2b4844465dbc88aad3c38efbc7d5559932852294ee52e4cb7cd0a",
+  "schema_version": 2,
+  "synced_at": "2026-08-30T01:23:04+00:00"
 }

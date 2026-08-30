@@ -1,0 +1,12 @@
+{
+  "files": {
+    "index.en.md": "26eaa109094feb307b87449946aff89a3a08fe0ff29760b97e74fe182c95525e",
+    "index.md": "d057e855b8036197aacb0523d1ba5367590ce5bccbdc277efb069f4d837f1d48",
+    "그림-01-점추정-vs-구간.en.png": "cf94203c4adc70e700b8c0a6d5fc0a84806ff5a9a34e5f256ef693a8233ddf76",
+    "그림-01-점추정-vs-구간.png": "a644184c1a2f1d8fe9a78e96485e4ad2482940fe8b0f2e6f6243f65fe8217d39"
+  },
+  "post": "2026-07-07-ai-uncertainty-interval",
+  "release_hash": "405103f2914c1d08d0af2c67d59fbcdc3f1dc49cb85f7dc45667d4cc71aa9439",
+  "schema_version": 2,
+  "synced_at": "2026-08-30T01:23:04+00:00"
+}
