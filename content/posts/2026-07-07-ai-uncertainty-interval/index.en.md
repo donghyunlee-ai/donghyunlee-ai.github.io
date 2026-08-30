@@ -6,7 +6,7 @@ tags: ["AI Uncertainty", "Confidence Intervals", "Uncertainty Quantification", "
 summary: "Just as statistics moved from point estimates to confidence intervals, AI is entering an era in which it must report not just one answer, but how much that answer can be trusted. Part 1 of the Trustworthy AI series."
 featureimage: "그림-01-점추정-vs-구간.en.png"
 images: ["그림-01-점추정-vs-구간.en.png"]
-translation_source_hash: "e4f0f01771fcdb4205cd55d445a437ceabeb4b170ba2c3f5ffc7a14a74788330"
+translation_source_hash: "93ee163a336a7f7191ffa58a99bc7ef9f4c4e0797e16e56511123202450e2d87"
 draft: false # Korean original published on Naver on 2026-07-12. Canonical remains the hub, not Naver.
 ---
 
