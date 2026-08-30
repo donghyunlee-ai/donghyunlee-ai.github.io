@@ -3,7 +3,7 @@ title: "When a New Infectious Disease Has Little Data, Which Country Should AI L
 date: 2026-08-11
 tags: ["Transfer Learning", "Heterogeneous Transfer Learning", "Infectious Disease Forecasting", "COVID-19", "Time-Series Forecasting", "TCN", "Data-Centric AI", "Trustworthy AI"]
 summary: "In transfer learning for infectious-disease forecasting, models trained on data from the most dissimilar countries consistently outperformed those trained on the most similar countries. This article explains the 30-country experiment and the limitations that must accompany its results."
-translation_source_hash: "32168bcf9c7ca7042799b7feafbbf59bdcbc2ad70bcf04fac6eb2d908f67917b"
+translation_source_hash: "3ab03151dceca5197eb49b474a1796724b656b9f95887798d37f6a9bd9afb3ce"
 draft: false
 ---
 

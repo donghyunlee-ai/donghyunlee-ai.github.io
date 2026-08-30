@@ -6,7 +6,7 @@ summary: "학습 때와 다른 데이터를 만나도 AI의 불확실성이 자�
 draft: false
 ---
 
-[지난 글](https://blog.naver.com/donghyunlee-ai/224358714877)에서는 MC Dropout과 딥 앙상블로 예측 불확실성의 일부를 추정하는 방법을 살펴봤습니다. 같은 입력을 여러 번 예측해 답들이 얼마나 벌어지는지 보는 방식이었습니다.
+[지난 글](/posts/2026-07-26-mc-dropout-vs-deep-ensembles/)에서는 MC Dropout과 딥 앙상블로 예측 불확실성의 일부를 추정하는 방법을 살펴봤습니다. 같은 입력을 여러 번 예측해 답들이 얼마나 벌어지는지 보는 방식이었습니다.
 
 **그렇다면 AI가 학습 때 보지 못한 데이터를 만나면, 예측들이 알아서 더 벌어질까요?**
 
@@ -117,8 +117,8 @@ AI가 낯선 데이터를 만나면 정말 “모른다”고 말할까요. 답�
 
 ## 관련 글
 
-- [AI는 ‘모른다’를 어떻게 계산할까 — MC Dropout과 딥 앙상블의 차이](https://blog.naver.com/donghyunlee-ai/224358714877)
-- [AI 예측은 왜 ‘하나의 숫자’로 답하면 안 될까 — 점추정에서 신뢰구간의 시대로](https://blog.naver.com/donghyunlee-ai/224343787239)
+- [AI는 ‘모른다’를 어떻게 계산할까 — MC Dropout과 딥 앙상블의 차이](/posts/2026-07-26-mc-dropout-vs-deep-ensembles/)
+- [AI 예측은 왜 ‘하나의 숫자’로 답하면 안 될까 — 점추정에서 신뢰구간의 시대로](/posts/2026-07-07-ai-uncertainty-interval/)
 
 ## 출처
 

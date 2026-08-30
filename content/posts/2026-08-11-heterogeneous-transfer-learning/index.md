@@ -128,8 +128,8 @@ _그림 4. 직관은 가설이지, 근거가 아닙니다. 당연해 보이는 �
 
 ## 관련 글
 
-- [AI는 '모른다'를 어떻게 계산할까 — MC Dropout과 딥 앙상블의 차이](https://blog.naver.com/donghyunlee-ai/224358714877)
-- [AI 예측은 왜 '하나의 숫자'로 답하면 안 될까 — 점추정에서 신뢰구간의 시대로](https://blog.naver.com/donghyunlee-ai/224343787239)
+- [AI는 '모른다'를 어떻게 계산할까 — MC Dropout과 딥 앙상블의 차이](/posts/2026-07-26-mc-dropout-vs-deep-ensembles/)
+- [AI 예측은 왜 '하나의 숫자'로 답하면 안 될까 — 점추정에서 신뢰구간의 시대로](/posts/2026-07-07-ai-uncertainty-interval/)
 
 ## 출처
 

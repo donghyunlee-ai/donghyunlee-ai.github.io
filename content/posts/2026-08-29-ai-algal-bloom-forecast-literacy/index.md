@@ -91,8 +91,8 @@ _그림 3. '녹조 예측'이라는 이름보다 무엇·어디·언제·얼마�
 
 ## 관련 글
 
-- [AI 예측은 왜 '하나의 숫자'로 답하면 안 될까 — 점추정에서 신뢰구간의 시대로](https://blog.naver.com/donghyunlee-ai/224343787239)
-- [AI는 낯선 데이터를 만나면 정말 '모른다'고 말할까 — 데이터 분포 변화와 OOD](https://blog.naver.com/donghyunlee-ai/224378720396)
+- [AI 예측은 왜 '하나의 숫자'로 답하면 안 될까 — 점추정에서 신뢰구간의 시대로](/posts/2026-07-07-ai-uncertainty-interval/)
+- [AI는 낯선 데이터를 만나면 정말 '모른다'고 말할까 — 데이터 분포 변화와 OOD](/posts/2026-08-16-dataset-shift-ood/)
 
 ## 출처
 

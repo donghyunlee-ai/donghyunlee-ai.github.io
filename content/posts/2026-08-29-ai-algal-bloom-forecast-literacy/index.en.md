@@ -3,7 +3,7 @@ title: "AI Has Arrived in Algal Bloom Forecasting — How Should We Read ‘Caut
 date: 2026-08-29
 tags: ["Algal Bloom Forecasting", "Algal Bloom Alerts", "Environmental AI", "AI Forecasting", "Forecast Literacy", "AI Uncertainty", "Trustworthy AI"]
 summary: "Algal bloom alerts describe the observed present; AI and numerical models estimate change over the next seven days. This article explains how to read the forecast target, site, reference time, horizon, and uncertainty together."
-translation_source_hash: "80672182b062b0131d2dba5a5c0ad671b968897d1de485a6d3cdfed58a938aaa"
+translation_source_hash: "7b82cde42722e4e941d8c94e2e80be5d25914dfd2fbb080762c063df0d43c3dc"
 draft: false
 ---
 

@@ -3,7 +3,7 @@ title: "Does AI Really Say ‘I Don’t Know’ When It Encounters Unfamiliar Da
 date: 2026-08-16
 tags: ["Dataset Shift", "Distribution Shift", "OOD", "OOD Detection", "Concept Drift", "AI Uncertainty", "Trustworthy AI", "Particulate Matter Forecasting"]
 summary: "AI uncertainty does not automatically increase when a model encounters data unlike its training data. This article distinguishes OOD from three kinds of distribution shift and sets out criteria for stress testing and revalidation."
-translation_source_hash: "23d52adb4274e39ca1523ab0ba01a81677b6d307fa54cf0410505770710e7940"
+translation_source_hash: "185950a2e5631f91a5fe72cf67615b574d61845587aa85051d687df472215690"
 draft: false
 ---
 

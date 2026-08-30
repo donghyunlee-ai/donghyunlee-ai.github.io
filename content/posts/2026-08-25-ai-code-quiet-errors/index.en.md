@@ -3,7 +3,7 @@ title: "The AI-Written Python Code Ran—and It Was Wrong — Three Places Silen
 date: 2026-08-21
 tags: ["Python", "AI Coding", "AI Code Verification", "Silent Errors", "Debugging", "Data Types", "Exception Handling", "Python Fundamentals for the AI Era"]
 summary: "Code that finishes without an error is not verified code. This article explains three recurring hiding places for silent errors in AI-written Python—data-type assumptions, range boundaries, and swallowed exceptions—and a 30-second verification routine."
-translation_source_hash: "98fec899948c9158c4e35414d604e823a9e9d66708da4efd6d00e51b91bb82ab"
+translation_source_hash: "e662d84481015c0974ce73f11c91da890a691c296d066d86a632404c04aa8141"
 draft: false
 ---
 

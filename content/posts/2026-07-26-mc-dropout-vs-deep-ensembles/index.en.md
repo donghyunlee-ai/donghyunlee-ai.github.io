@@ -3,7 +3,7 @@ title: "How Does AI Calculate ‘I Don’t Know’? — MC Dropout vs. Deep Ense
 date: 2026-07-26
 tags: ["MC Dropout", "Deep Ensembles", "Bayesian Deep Learning", "AI Uncertainty", "Uncertainty Quantification", "Trustworthy AI", "Particulate Matter Forecasting"]
 summary: "MC Dropout runs one model in many forms; deep ensembles train multiple models separately. Twenty accessible points explain how these two approaches calculate what AI does not know, along with their costs and limitations."
-translation_source_hash: "f3637c2f713790834ebdc093b8d1a08be876207c50eaf59ebae9fb1a3fd2fe8d"
+translation_source_hash: "fa88831b91c9717bbc66b17a93e043b06093106da1ca1234f49e0470917734c6"
 draft: false
 ---
 

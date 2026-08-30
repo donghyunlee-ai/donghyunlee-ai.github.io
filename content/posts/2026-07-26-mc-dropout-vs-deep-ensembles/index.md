@@ -126,8 +126,8 @@ MC Dropout은 **한 모델을 여러 모습으로 실행**합니다. 딥 앙상�
 
 ## 관련 글
 
-- [AI 예측은 왜 ‘하나의 숫자’로 답하면 안 될까 — 점추정에서 신뢰구간의 시대로](https://blog.naver.com/donghyunlee-ai/224343787239)
-- [우리는 왜 숫자가 붙은 말을 더 쉽게 믿을까 — 숫자를 읽는 20개의 짧은 생각](https://blog.naver.com/donghyunlee-ai/224357406993)
+- [AI 예측은 왜 ‘하나의 숫자’로 답하면 안 될까 — 점추정에서 신뢰구간의 시대로](/posts/2026-07-07-ai-uncertainty-interval/)
+- [우리는 왜 숫자가 붙은 말을 더 쉽게 믿을까 — 숫자를 읽는 20개의 짧은 생각](/posts/2026-07-25-why-we-trust-numbers/)
 
 ## 출처
 

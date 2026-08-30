@@ -6,7 +6,7 @@ tags: ["AI Era", "2027", "Future of AI", "Future of Work", "AI Agents", "AI Harn
 summary: "In 2027, what may matter more than whether we use AI is the ability to design goals, context, tools, and verification as one system—and to improve the rubrics used to evaluate the results."
 featureimage: "그림-01-질문.png"
 images: ["그림-01-질문.png"]
-translation_source_hash: "eb9644b4c64f857416103e881aa5563a1b9eb4fe2bea6a0c226235db65972bc3"
+translation_source_hash: "4761ad0257c44d6fe56509ff4f422cf87a8a02cc5f4c69b9749fc992747a2626"
 draft: false
 ---
 

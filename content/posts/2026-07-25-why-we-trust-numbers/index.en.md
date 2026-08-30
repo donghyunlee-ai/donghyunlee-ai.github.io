@@ -3,7 +3,7 @@ title: "Why Do We Trust Claims More Easily When They Include Numbers? — 20 Sho
 date: 2026-07-25
 tags: ["Numbers", "Data Interpretation", "Statistics", "Data Literacy", "Decision-Making", "Uncertainty", "Trustworthy AI"]
 summary: "Why does a claim with a decimal point feel more objective? Twenty short thoughts on recovering the definitions, denominators, comparisons, uncertainty, and uses hidden behind a number."
-translation_source_hash: "655701a77512cda85271c0156544a88db2c039617b3e262b10d3d32b2a3b0ad3"
+translation_source_hash: "435c7f3e3fb84f45a7fe75eb314a3669b364bd400bb54a2d703c05d03fc59419"
 draft: false
 ---
 
