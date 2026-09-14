@@ -3,7 +3,7 @@ title: "소개"
 url: "/about/"
 aliases: ["/talks/"]
 date: 2026-07-11
-lastmod: 2026-08-21
+lastmod: 2026-09-14
 summary: "이동현 — 한국외국어대학교 교수, 한국인공지능 주식회사 창업자. 신뢰할 수 있는 AI를 고위험 예측 현장에 적용하는 연구자."
 ShowReadingTime: false
 ShowToc: false
@@ -31,7 +31,7 @@ showPagination: false
   <section class="profile-card">
     <p class="eyebrow">교육·연구</p>
     <h3>한국외국어대학교 교수</h3>
-    <p>Social Science &amp; AI융합학부에서 AI와 사회의 접점을 연구하고 가르칩니다. KAIST에서 공학사·공학석사·공학박사 학위를 받았습니다.</p>
+    <p>Social Science &amp; AI융합학부에서 AI와 사회의 접점을 연구하고 가르칩니다. KAIST에서 공학사·공학석사·공학박사 학위를 받았습니다.<br><a class="underline" href="https://donghyunlee-lab.github.io/">연구실 홈페이지 →</a></p>
   </section>
   <section class="profile-card">
     <p class="eyebrow">현장 적용</p>
@@ -56,6 +56,8 @@ showPagination: false
 ## 걸어온 길
 
 한국공학대학교 부교수와 한국환경연구원 빅데이터연구팀 부연구위원을 지냈고, 환경부 중앙환경정책위원회 환경경제분과위원으로 활동했습니다. 10년째 대학에서 프로그래밍과 데이터 분석을 강의하고 있으며, 강의실과 창업 현장에서 다듬은 경험을 바탕으로 AI ERA SERIES를 쓰고 있습니다.
+
+[전체 이력서 보기 (영문 PDF)](https://donghyunlee-lab.github.io/assets/pdf/CV.pdf)
 
 ## 논문과 수상
 

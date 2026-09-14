@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2026-07-11
-lastmod: 2026-08-21
+lastmod: 2026-09-14
 summary: "Donghyun Lee — professor at Hankuk University of Foreign Studies and founder of AI Korea Inc., applying trustworthy AI to high-stakes forecasting."
 ShowReadingTime: false
 ShowToc: false
@@ -29,7 +29,7 @@ I am currently developing this perspective into two Korean-language books in the
   <section class="profile-card">
     <p class="eyebrow">Education &amp; Research</p>
     <h3>Professor, Hankuk University of Foreign Studies</h3>
-    <p>I study and teach at the intersection of AI and society in the Division of Social Science &amp; AI Convergence. I earned my bachelor’s, master’s, and doctoral degrees in engineering from KAIST.</p>
+    <p>I study and teach at the intersection of AI and society in the Division of Social Science &amp; AI Convergence. I earned my bachelor’s, master’s, and doctoral degrees in engineering from KAIST.<br><a class="underline" href="https://donghyunlee-lab.github.io/">Research group →</a></p>
   </section>
   <section class="profile-card">
     <p class="eyebrow">Real-World Application</p>
@@ -54,6 +54,8 @@ I have participated in projects that tackle real-world forecasting problems, inc
 ## Background
 
 Previously, I was an associate professor at Tech University of Korea and an associate research fellow on the Big Data Research Team at the Korea Environment Institute. I also served on the Environmental Economy Subcommittee of the Ministry of Environment’s Central Environmental Policy Committee. I have taught programming and data analysis at universities for ten years, and I draw on experience from both the classroom and the startup field while writing the AI ERA SERIES.
+
+[Full CV (PDF)](https://donghyunlee-lab.github.io/assets/pdf/CV.pdf)
 
 ## Publications and awards
 
