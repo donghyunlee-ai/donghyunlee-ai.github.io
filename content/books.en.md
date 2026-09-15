@@ -1,7 +1,7 @@
 ---
 title: "Books"
 date: 2026-08-16
-lastmod: 2026-08-16
+lastmod: 2026-09-15
 summary: "AI ERA SERIES — Korean-language books about what and how to learn in the age of AI."
 ShowReadingTime: false
 ShowToc: false
@@ -23,14 +23,14 @@ showPagination: false
     <h3>Python Fundamentals in the Age of AI</h3>
     <p class="book-subtitle">Your first Python course, starting from zero experience</p>
     <p>When AI can write all the code, should we trust that code as it is? By practicing how to predict output before copying code, this book builds the fundamentals needed to read and verify AI-generated code.</p>
-    <p class="book-meta">Korean-language edition scheduled for September 1, 2026 · Chapter example code will be published on GitHub with the book.</p>
+    <p class="book-meta">Korean-language ebook (PDF) scheduled for September 29, 2026 · Chapter example code will be published on GitHub with the book.</p>
   </section>
   <section class="book-card">
     <p class="eyebrow">AI ERA SERIES 02</p>
     <h3>Python Data Visualization in the Age of AI</h3>
     <p class="book-subtitle">From a single chart to dashboard deployment</p>
     <p>When AI can draw every chart, who decides what the chart should show? Beginning with the principle of choosing the one thing to communicate before drawing, this book covers the path from matplotlib to dashboard deployment.</p>
-    <p class="book-meta">Korean-language edition scheduled for September 1, 2026 · Example code and dashboards will be published on GitHub with the book.</p>
+    <p class="book-meta">Korean-language edition scheduled for October 15, 2026 · Example code and dashboards will be published on GitHub with the book.</p>
   </section>
 </div>
 

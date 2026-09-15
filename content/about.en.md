@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2026-07-11
-lastmod: 2026-09-14
+lastmod: 2026-09-15
 summary: "Donghyun Lee — professor at Hankuk University of Foreign Studies and founder of AI Korea Inc., applying trustworthy AI to high-stakes forecasting."
 ShowReadingTime: false
 ShowToc: false
@@ -21,7 +21,7 @@ I study that “how far.” My work centers on **trustworthy AI**: when predicti
 
 One accuracy score is not enough to make AI trustworthy. To use AI in practice, we need to see both the basis for its answer and the conditions under which it breaks down. The writing, teaching, and research on this site all return to that question.
 
-I am currently developing this perspective into two Korean-language books in the AI ERA SERIES: *Python Fundamentals in the Age of AI* and *Python Data Visualization in the Age of AI*, scheduled for publication in September 2026. <a href="/en/books/">About the books →</a>
+I am currently developing this perspective into two Korean-language books in the AI ERA SERIES: *Python Fundamentals in the Age of AI* and *Python Data Visualization in the Age of AI*, scheduled for publication in September and October 2026, respectively. <a href="/en/books/">About the books →</a>
 
 ## What I do
 
