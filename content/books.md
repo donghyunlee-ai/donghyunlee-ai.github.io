@@ -24,7 +24,7 @@ showPagination: false
     <h3>AI 시대의 파이썬 기본기</h3>
     <p class="book-subtitle">경험 제로에서 시작하는 첫 파이썬 수업</p>
     <p>AI가 코드를 다 짜 주는 시대, 그 코드를 그대로 믿어도 될까요? 따라 치기 전에 출력부터 예측하는 훈련으로, AI가 낸 코드를 읽고 검증할 수 있는 기본기를 만듭니다.</p>
-    <p class="book-meta"><strong><a href="https://madeby2.upaper.kr/content/1224834">전자책 구매 (유페이퍼)</a></strong> · <a href="https://github.com/donghyunlee-ai/book-python-basics">장별 예제 코드 (GitHub)</a> · 종이책은 학기 후 출간 예정</p>
+    <p class="book-meta book-actions"><a class="buy-action" href="https://madeby2.upaper.kr/content/1224834">전자책 구매</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-basics">예제 코드 (GitHub)</a><span class="book-note">유페이퍼 전자책(PDF) 17,800원 · 종이책은 학기 후 출간 예정</span></p>
   </section>
   <section class="book-card">
     <p class="eyebrow">AI ERA SERIES 02</p>

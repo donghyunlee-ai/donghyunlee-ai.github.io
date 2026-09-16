@@ -235,6 +235,94 @@ main:has(.home-actions) .article-link--simple .article-link__summary {
   line-height: 1.6;
 }
 
+/* 카드 안의 행동 링크(구매·저장소) — 홈 .home-actions 버튼 토큰 재사용 */
+.book-card .book-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.book-card .book-actions a {
+  display: inline-flex;
+  min-height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.6rem;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease,
+    transform 160ms ease;
+}
+
+.book-card .book-actions a:hover {
+  transform: translateY(-1px);
+}
+
+.book-card .book-actions .buy-action {
+  border: 1px solid rgb(var(--color-primary-800));
+  background: rgb(var(--color-primary-800));
+  color: rgb(var(--color-neutral));
+}
+
+.book-card .book-actions .buy-action:hover {
+  border-color: rgb(var(--color-primary-600));
+  background: rgb(var(--color-primary-600));
+}
+
+.book-card .book-actions .code-action {
+  border: 1px solid rgb(var(--color-primary-700));
+  background: transparent;
+  color: rgb(var(--color-primary-800));
+}
+
+.book-card .book-actions .code-action:hover {
+  background: rgb(var(--color-primary-50));
+}
+
+.dark .book-card .book-actions .buy-action {
+  border-color: rgb(var(--color-primary-300));
+  background: rgb(var(--color-primary-300));
+  color: rgb(var(--color-neutral-800));
+}
+
+.dark .book-card .book-actions .buy-action:hover {
+  border-color: rgb(var(--color-primary-200));
+  background: rgb(var(--color-primary-200));
+}
+
+.dark .book-card .book-actions .code-action {
+  border-color: rgb(var(--color-primary-300));
+  color: rgb(var(--color-primary-200));
+}
+
+.dark .book-card .book-actions .code-action:hover {
+  background: rgb(var(--color-neutral-600));
+}
+
+.book-card .book-actions .book-note {
+  flex-basis: 100%;
+  margin: 0.1rem 0 0;
+  color: rgb(var(--color-neutral-500));
+  font-size: 0.8rem;
+}
+
+.dark .book-card .book-actions .book-note {
+  color: rgb(var(--color-neutral-300));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .book-card .book-actions a {
+    transition: none;
+  }
+  .book-card .book-actions a:hover {
+    transform: none;
+  }
+}
+
 .dark .book-card .book-meta {
   color: rgb(var(--color-neutral-400));
 }
@@ -299,6 +387,11 @@ main:has(.home-actions) .article-link--simple .article-link__summary {
 }
 
 @media (max-width: 767px) {
+  .book-card .book-actions a {
+    min-height: 2.75rem;
+    flex: 1 1 100%;
+  }
+
   #single_header h1 {
     font-size: 1.875rem;
     line-height: 1.3;

@@ -23,7 +23,7 @@ showPagination: false
     <h3>Python Fundamentals in the Age of AI</h3>
     <p class="book-subtitle">Your first Python course, starting from zero experience</p>
     <p>When AI can write all the code, should we trust that code as it is? By practicing how to predict output before copying code, this book builds the fundamentals needed to read and verify AI-generated code.</p>
-    <p class="book-meta"><strong><a href="https://madeby2.upaper.kr/content/1224834">Buy the Korean ebook (Upaper)</a></strong> · <a href="https://github.com/donghyunlee-ai/book-python-basics">Chapter example code (GitHub)</a> · Print edition planned after the semester</p>
+    <p class="book-meta book-actions"><a class="buy-action" href="https://madeby2.upaper.kr/content/1224834">Buy the ebook</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-basics">Example code (GitHub)</a><span class="book-note">Korean ebook (PDF) on Upaper, KRW 17,800 · print edition planned after the semester</span></p>
   </section>
   <section class="book-card">
     <p class="eyebrow">AI ERA SERIES 02</p>
