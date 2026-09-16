@@ -1,7 +1,7 @@
 ---
 title: "Books"
 date: 2026-08-16
-lastmod: 2026-09-16
+lastmod: 2026-09-17
 summary: "AI ERA SERIES — Korean-language books about what and how to learn in the age of AI."
 ShowReadingTime: false
 ShowToc: false
@@ -34,4 +34,4 @@ showPagination: false
   </section>
 </div>
 
-Publication news and links to the example code will appear on this page on the release date. Errata for each book will also be maintained here.
+Purchase links and example-code repositories are listed on each book card. Errata are applied directly in each repository's `ERRATA.md`.
