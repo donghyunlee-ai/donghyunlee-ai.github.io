@@ -2,7 +2,7 @@
 title: "도서"
 url: "/books/"
 date: 2026-08-16
-lastmod: 2026-09-15
+lastmod: 2026-09-16
 summary: "AI ERA SERIES — AI 시대에 무엇을 어떻게 공부해야 하는지를 다루는 책 시리즈."
 ShowReadingTime: false
 ShowToc: false
@@ -24,7 +24,7 @@ showPagination: false
     <h3>AI 시대의 파이썬 기본기</h3>
     <p class="book-subtitle">경험 제로에서 시작하는 첫 파이썬 수업</p>
     <p>AI가 코드를 다 짜 주는 시대, 그 코드를 그대로 믿어도 될까요? 따라 치기 전에 출력부터 예측하는 훈련으로, AI가 낸 코드를 읽고 검증할 수 있는 기본기를 만듭니다.</p>
-    <p class="book-meta"><del>2026년 9월 18일</del> <strong>2026년 9월 29일 출간 예정</strong> — 전자책(PDF) 출간 심사 중 · 장별 예제 코드는 출간과 함께 GitHub에 공개됩니다.</p>
+    <p class="book-meta"><strong><a href="https://madeby2.upaper.kr/content/1224834">전자책 구매 (유페이퍼)</a></strong> · <a href="https://github.com/donghyunlee-ai/book-python-basics">장별 예제 코드 (GitHub)</a> · 종이책은 학기 후 출간 예정</p>
   </section>
   <section class="book-card">
     <p class="eyebrow">AI ERA SERIES 02</p>
@@ -35,9 +35,8 @@ showPagination: false
   </section>
 </div>
 
-<!-- 출간(01 기본기 2026-09-29 · 02 시각화 2026-10-15, 저장소 공개 전환) 후 각 카드 book-meta를 아래 링크로 교체:
-  01: <a href="https://github.com/donghyunlee-ai/book-python-basics">예제 코드 (GitHub)</a>
-  02: <a href="https://github.com/donghyunlee-ai/book-python-visualization">예제 코드 (GitHub)</a>
-  + 부크크(종이책)·유페이퍼(전자책) 구매 링크 추가 -->
+<!-- 01 기본기: 2026-09-16 전자책 출간·저장소 공개 전환 완료(구매·코드 링크 반영). 종이책(부크크)은 학기 후 — 나오면 카드에 구매 링크 추가.
+  02 시각화: 2026-10-15 출간 예정. 출간일에 아래 링크로 카드 book-meta 교체 + 저장소 공개 전환:
+  <a href="https://github.com/donghyunlee-ai/book-python-visualization">예제 코드 (GitHub)</a> + 유페이퍼 구매 링크 -->
 
-출간 소식과 예제 코드 링크는 출간일에 이 페이지에서 안내합니다. 각 책의 정오표도 여기에서 관리할 예정입니다.
+구매처와 예제 코드 저장소는 각 책 카드에서 안내합니다. 정오표는 저장소의 `ERRATA.md`에 바로 반영합니다.
