@@ -29,14 +29,14 @@ showPagination: false
   <section class="book-card">
     <p class="eyebrow">AI ERA SERIES 02</p>
     <h3>AI 시대의 파이썬 데이터 시각화</h3>
-    <p class="book-subtitle">차트 한 장에서 대시보드 배포까지</p>
-    <p>AI가 차트를 다 그려 주는 시대, 무엇을 보여줄지는 누가 정할까요? 그리기 전에 보여줄 하나를 정하는 원칙으로, matplotlib부터 대시보드 배포까지 다룹니다.</p>
-    <p class="book-meta"><del>2026년 9월 18일</del> <strong>2026년 10월 15일 출간 예정</strong> — 마지막 퇴고 중 · 예제 코드·대시보드는 출간과 함께 GitHub에 공개됩니다.</p>
+    <p class="book-subtitle">차트 한 장에서 대시보드까지</p>
+    <p>AI가 차트를 다 그려 주는 시대, 무엇을 보여줄지는 누가 정할까요? 그리기 전에 보여줄 하나를 정하는 원칙으로, matplotlib부터 대시보드까지 다룹니다.</p>
+    <p class="book-meta"><strong>출간 일정 재검토 중</strong> · 예제 코드는 출간과 함께 GitHub에 공개됩니다.</p>
   </section>
 </div>
 
 <!-- 01 기본기: 2026-09-16 전자책 출간·저장소 공개 전환 완료(구매·코드 링크 반영). 종이책(부크크)은 학기 후 — 나오면 카드에 구매 링크 추가.
-  02 시각화: 2026-10-15 출간 예정. 출간일에 아래 링크로 카드 book-meta 교체 + 저장소 공개 전환:
+  02 시각화: 출간 일정 재검토 중(2026-09-25 — 강의 교재로 새로 쓰는 중, 부제 "차트 한 장에서 대시보드까지"). 출간일에 아래 링크로 카드 book-meta 교체 + 저장소 공개 전환:
   <a href="https://github.com/donghyunlee-ai/book-python-visualization">예제 코드 (GitHub)</a> + 유페이퍼 구매 링크 -->
 
 구매처와 예제 코드 저장소는 각 책 카드에서 안내합니다. 정오표는 저장소의 `ERRATA.md`에 바로 반영합니다.

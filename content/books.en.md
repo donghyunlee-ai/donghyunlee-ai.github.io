@@ -28,9 +28,9 @@ showPagination: false
   <section class="book-card">
     <p class="eyebrow">AI ERA SERIES 02</p>
     <h3>Python Data Visualization in the Age of AI</h3>
-    <p class="book-subtitle">From a single chart to dashboard deployment</p>
-    <p>When AI can draw every chart, who decides what the chart should show? Beginning with the principle of choosing the one thing to communicate before drawing, this book covers the path from matplotlib to dashboard deployment.</p>
-    <p class="book-meta">Korean-language edition scheduled for October 15, 2026 · Example code and dashboards will be published on GitHub with the book.</p>
+    <p class="book-subtitle">From a single chart to a dashboard</p>
+    <p>When AI can draw every chart, who decides what the chart should show? Beginning with the principle of choosing the one thing to communicate before drawing, this book covers the path from matplotlib to dashboards.</p>
+    <p class="book-meta"><strong>Publication schedule under review</strong> · Example code will be published on GitHub with the book.</p>
   </section>
 </div>
 

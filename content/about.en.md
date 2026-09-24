@@ -21,7 +21,7 @@ I study that “how far.” My work centers on **trustworthy AI**: when predicti
 
 One accuracy score is not enough to make AI trustworthy. To use AI in practice, we need to see both the basis for its answer and the conditions under which it breaks down. The writing, teaching, and research on this site all return to that question.
 
-I am currently developing this perspective into two Korean-language books in the AI ERA SERIES: *Python Fundamentals in the Age of AI* and *Python Data Visualization in the Age of AI*, — the first is out as a Korean ebook and the second is scheduled for October 2026. <a href="/en/books/">About the books →</a>
+I am currently developing this perspective into two Korean-language books in the AI ERA SERIES: *Python Fundamentals in the Age of AI* and *Python Data Visualization in the Age of AI*, — the first is out as a Korean ebook, and the publication schedule for the second is under review. <a href="/en/books/">About the books →</a>
 
 ## What I do
 
