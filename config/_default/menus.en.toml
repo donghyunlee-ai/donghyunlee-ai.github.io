@@ -13,10 +13,10 @@
   pageRef = "books"
   weight = 30
 
-# 파이썬 연습 사이트는 한국어뿐이라 이름에 (Korean)을 붙인다(2026-10-13 사용자 결정)
+# 파이썬 연습 사이트는 한국어뿐이라 이름에 (Korean)을 붙이고, 첫 화면(/practice/)으로 보낸다(2026-10-13 사용자 결정)
 [[main]]
   name = "Coding Test (Korean)"
-  url = "/practice/#/coding-test"
+  url = "/practice/"
   weight = 40
 
 [[footer]]
@@ -36,7 +36,7 @@
 
 [[footer]]
   name = "Coding Test (Korean)"
-  url = "/practice/#/coding-test"
+  url = "/practice/"
   weight = 35
 
 [[footer]]

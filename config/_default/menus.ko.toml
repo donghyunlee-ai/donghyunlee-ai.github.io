@@ -13,10 +13,10 @@
   pageRef = "books"
   weight = 30
 
-# 파이썬 연습 사이트(별도 저장소 donghyunlee-ai/practice, 2026-10-13)의 코딩 테스트 과목
+# 파이썬 연습 사이트(별도 저장소 donghyunlee-ai/practice, 2026-10-13). 이름은 '코딩 테스트'로 두고 첫 화면으로 보낸다(사용자 결정)
 [[main]]
   name = "코딩 테스트"
-  url = "/practice/#/coding-test"
+  url = "/practice/"
   weight = 40
 
 [[footer]]
@@ -36,7 +36,7 @@
 
 [[footer]]
   name = "코딩 테스트"
-  url = "/practice/#/coding-test"
+  url = "/practice/"
   weight = 35
 
 [[footer]]
