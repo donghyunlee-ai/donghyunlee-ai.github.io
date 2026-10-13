@@ -273,13 +273,15 @@ main:has(.home-actions) .article-link--simple .article-link__summary {
   background: rgb(var(--color-primary-600));
 }
 
-.book-card .book-actions .code-action {
+.book-card .book-actions .code-action,
+.book-card .book-actions .practice-action {
   border: 1px solid rgb(var(--color-primary-700));
   background: transparent;
   color: rgb(var(--color-primary-800));
 }
 
-.book-card .book-actions .code-action:hover {
+.book-card .book-actions .code-action:hover,
+.book-card .book-actions .practice-action:hover {
   background: rgb(var(--color-primary-50));
 }
 
@@ -294,12 +296,14 @@ main:has(.home-actions) .article-link--simple .article-link__summary {
   background: rgb(var(--color-primary-200));
 }
 
-.dark .book-card .book-actions .code-action {
+.dark .book-card .book-actions .code-action,
+.dark .book-card .book-actions .practice-action {
   border-color: rgb(var(--color-primary-300));
   color: rgb(var(--color-primary-200));
 }
 
-.dark .book-card .book-actions .code-action:hover {
+.dark .book-card .book-actions .code-action:hover,
+.dark .book-card .book-actions .practice-action:hover {
   background: rgb(var(--color-neutral-600));
 }
 
