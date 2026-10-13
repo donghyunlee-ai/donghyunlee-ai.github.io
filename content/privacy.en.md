@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 date: 2026-07-27
-lastmod: 2026-08-24
+lastmod: 2026-10-13
 summary: "How donghyunlee.kr processes personal information and uses Google Analytics."
 ShowReadingTime: false
 ShowToc: true
@@ -37,11 +37,20 @@ When a user directly contacts the email address displayed on the site, the sende
 
 If an inquiry concerns laboratory or company work, the Operator will direct the user to the appropriate official contact channel and will not forward the inquiry to another entity without the user’s separate consent.
 
+### Python practice page
+
+The Python practice page at `donghyunlee.kr/practice/` requires no registration, and the code and practice records that users create are not sent to the Operator.
+
+- Code execution: Python code runs and is graded inside the user’s browser. For this, the page downloads the Python runtime (Pyodide) and fonts from jsDelivr.
+- Practice records: solved problems, answers in progress, and time attack and mock exam records are stored only in the user’s browser storage (localStorage). The Operator cannot see these records.
+- Usage analytics: the “Site usage analytics” described above also applies to this page. Code and practice records are not sent to Google Analytics.
+
 ## 2. Processing and retention periods
 
 - Google Analytics user- and event-level data: 14 months from collection
 - Google Analytics cookies: up to 14 months from creation; the expiration period is not extended with each visit
 - Email inquiry information: deleted without delay after the purpose of the inquiry has been fulfilled, unless retention is required for a contract, dispute, or under applicable law
+- Python practice page records: kept only in the user’s browser and deleted when the user clears the site data in the browser or deletes them under “내 기록” (My records) on the practice page. The Operator does not retain them.
 
 Statistics that are not directly tied to a personal identifier, such as standard aggregated Google Analytics reports, may be retained longer under Google’s policies.
 
@@ -89,4 +98,5 @@ The Operator limits access to personal information to what is necessary and main
 If this policy changes, the changes and their effective date will be published on this page.
 
 - Effective date: July 27, 2026
-- Last revised: August 24, 2026 (Google Analytics retention changed from two months to 14 months; cookie lifetime changed from 60 days to a maximum of 14 months; the consent-banner approach changed to notice and opt-out guidance.)
+- Revised: August 24, 2026 (Google Analytics retention changed from two months to 14 months; cookie lifetime changed from 60 days to a maximum of 14 months; the consent-banner approach changed to notice and opt-out guidance.)
+- Last revised: October 13, 2026 (Added the Python practice page section.)
