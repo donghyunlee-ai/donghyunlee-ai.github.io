@@ -318,6 +318,32 @@ main:has(.home-actions) .article-link--simple .article-link__summary {
   color: rgb(var(--color-neutral-300));
 }
 
+/* 메모 줄 안의 다른 구매처(알라딘·예스24) — 버튼이 아니라 글자 링크 */
+.book-card .book-actions .book-note a {
+  display: inline;
+  min-height: 0;
+  border-radius: 0;
+  padding: 0;
+  color: rgb(var(--color-primary-700));
+  font-size: inherit;
+  font-weight: 600;
+  line-height: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.book-card .book-actions .book-note a:hover {
+  color: rgb(var(--color-primary-800));
+}
+
+.dark .book-card .book-actions .book-note a {
+  color: rgb(var(--color-primary-200));
+}
+
+.dark .book-card .book-actions .book-note a:hover {
+  color: rgb(var(--color-primary-100));
+}
+
 @media (prefers-reduced-motion: reduce) {
   .book-card .book-actions a {
     transition: none;

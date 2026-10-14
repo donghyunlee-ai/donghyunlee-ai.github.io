@@ -23,7 +23,7 @@ showPagination: false
     <h3>Python Fundamentals in the Age of AI</h3>
     <p class="book-subtitle">Your first Python course, starting from zero experience</p>
     <p>When AI can write all the code, should we trust that code as it is? By practicing how to predict output before copying code, this book builds the fundamentals needed to read and verify AI-generated code.</p>
-    <p class="book-meta book-actions"><a class="buy-action" href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013609812">Buy the ebook</a><a class="practice-action" href="/practice/#/basics">Practice problems (Korean)</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-basics">Example code (GitHub)</a><span class="book-note">Korean ebook on Kyobo Book Centre</span></p>
+    <p class="book-meta book-actions"><a class="buy-action" href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013609812">Buy the ebook</a><a class="practice-action" href="/practice/#/basics">Practice problems (Korean)</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-basics">Example code (GitHub)</a><span class="book-note">Korean ebook on Kyobo Book Centre · also on <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403414646">Aladin</a> and <a href="https://www.yes24.com/product/goods/197288461">YES24</a></span></p>
   </section>
   <section class="book-card">
     <p class="eyebrow">AI ERA SERIES 02</p>

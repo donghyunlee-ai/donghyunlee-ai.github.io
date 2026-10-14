@@ -24,7 +24,7 @@ showPagination: false
     <h3>AI 시대의 파이썬 기본기</h3>
     <p class="book-subtitle">경험 제로에서 시작하는 첫 파이썬 수업</p>
     <p>AI가 코드를 다 짜 주는 시대, 그 코드를 그대로 믿어도 될까요? 따라 치기 전에 출력부터 예측하는 훈련으로, AI가 낸 코드를 읽고 검증할 수 있는 기본기를 만듭니다.</p>
-    <p class="book-meta book-actions"><a class="buy-action" href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013609812">전자책 구매</a><a class="practice-action" href="/practice/#/basics">연습 문제</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-basics">예제 코드 (GitHub)</a><span class="book-note">교보문고 전자책</span></p>
+    <p class="book-meta book-actions"><a class="buy-action" href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013609812">전자책 구매</a><a class="practice-action" href="/practice/#/basics">연습 문제</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-basics">예제 코드 (GitHub)</a><span class="book-note">교보문고 전자책 · <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403414646">알라딘</a>과 <a href="https://www.yes24.com/product/goods/197288461">예스24</a>에서도 판매</span></p>
   </section>
   <section class="book-card">
     <p class="eyebrow">AI ERA SERIES 02</p>
@@ -35,7 +35,7 @@ showPagination: false
   </section>
 </div>
 
-<!-- 01 기본기: 2026-09-16 전자책 출간·저장소 공개 전환 완료(구매·코드 링크 반영). 2026-09-25 구매 링크를 교보문고로 교체, 가격 표기 삭제. 2026-10-13 연습 문제 버튼 추가(donghyunlee.kr/practice/#/basics, 별도 저장소 practice). 종이책(부크크)은 학기 후 — 나오면 카드에 구매 링크 추가.
+<!-- 01 기본기: 2026-09-16 전자책 출간·저장소 공개 전환 완료(구매·코드 링크 반영). 2026-09-25 구매 링크를 교보문고로 교체, 가격 표기 삭제. 2026-10-13 연습 문제 버튼 추가(donghyunlee.kr/practice/#/basics, 별도 저장소 practice). 2026-10-14 메모 줄에 알라딘·예스24 구매 링크 추가(글자 링크, 교보는 구매 버튼 유지). 종이책(부크크)은 학기 후 — 나오면 카드에 구매 링크 추가.
   02 시각화: 출간 일정 재검토 중(2026-09-25 — 강의 교재로 새로 쓰는 중, 부제 "차트 한 장에서 대시보드까지"). 출간일에 아래 링크로 카드 book-meta 교체 + 저장소 공개 전환:
   <a href="https://github.com/donghyunlee-ai/book-python-visualization">예제 코드 (GitHub)</a> + 전자책 구매 링크(가격 표기 없음) -->
 
