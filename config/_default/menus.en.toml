@@ -13,10 +13,11 @@
   pageRef = "books"
   weight = 30
 
-# 파이썬 연습 사이트는 한국어뿐이라 이름에 (Korean)을 붙이고, 첫 화면(/practice/)으로 보낸다(2026-10-13 사용자 결정)
+# 파이썬 연습 사이트의 영어 첫 화면(/practice/#/en)으로 보낸다. 2026-10-18 영어 과목 셋(Python Basics, Python Data Visualization,
+# Python Coding Tests)을 공개하며 (Korean)을 뺐다(사용자 요청 "홈페이지 영어 메뉴도 고쳐줘"). 이름은 한국어 메뉴 '코딩 테스트'와 맞춘다.
 [[main]]
-  name = "Coding Test (Korean)"
-  url = "/practice/"
+  name = "Coding Tests"
+  url = "/practice/#/en"
   weight = 40
 
 [[footer]]
@@ -35,8 +36,8 @@
   weight = 30
 
 [[footer]]
-  name = "Coding Test (Korean)"
-  url = "/practice/"
+  name = "Coding Tests"
+  url = "/practice/#/en"
   weight = 35
 
 [[footer]]
