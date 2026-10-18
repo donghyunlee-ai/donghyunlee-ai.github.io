@@ -1,0 +1,9 @@
+User-agent: *
+{{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
+Allow: /
+{{- else }}
+Disallow: /
+{{- end }}
+Sitemap: {{ "sitemap.xml" | absURL }}
+{{- /* 파이썬 연습 사이트(별도 저장소 donghyunlee-ai/practice, /practice/)의 영어 정적 페이지 사이트맵(2026-10-18). 테마의 robots.txt에 이 줄만 더했다 */}}
+Sitemap: https://donghyunlee.kr/practice/sitemap.xml
