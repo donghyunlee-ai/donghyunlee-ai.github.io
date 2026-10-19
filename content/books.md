@@ -19,7 +19,7 @@ showPagination: false
 <p class="page-lead">AI가 코드를 짜 주는 시대에 사람은 무엇을 공부해야 할까요.<br>그 답을 <strong>AI ERA SERIES</strong>라는 이름의 책으로 정리하고 있습니다.</p>
 
 <div class="book-card-grid not-prose">
-  <section class="book-card">
+  <section class="book-card" id="basics">
     <p class="eyebrow">AI ERA SERIES 01</p>
     <h3>AI 시대의 파이썬 기본기</h3>
     <p class="book-subtitle">경험 제로에서 시작하는 첫 파이썬 수업</p>
