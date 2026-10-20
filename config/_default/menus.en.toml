@@ -21,6 +21,12 @@
   url = "/practice/en/"
   weight = 40
 
+# 공개 도구(2026-10-20 사용자 "동현리 KR에도 툴 메뉴를 만들어서"): 연구실이 운영하는 hpai.kr과 파이썬 연습 카드
+[[main]]
+  name = "Tools"
+  pageRef = "tools"
+  weight = 50
+
 [[footer]]
   name = "Writing"
   pageRef = "posts"
@@ -40,6 +46,11 @@
   name = "Coding Tests"
   url = "/practice/en/"
   weight = 35
+
+[[footer]]
+  name = "Tools"
+  pageRef = "tools"
+  weight = 37
 
 [[footer]]
   name = "Privacy Policy"
