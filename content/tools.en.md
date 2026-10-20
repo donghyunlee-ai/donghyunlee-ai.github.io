@@ -15,14 +15,12 @@ showTaxonomies: false
 showPagination: false
 ---
 
-<p class="page-lead">Tools open for anyone to use.</p>
-
 <div class="book-card-grid not-prose">
   <section class="book-card" id="hpai">
-    <p class="eyebrow">Run by the lab · Non-commercial</p>
+    <p class="eyebrow">Run by the lab</p>
     <h3>HPAI Dashboard</h3>
-    <p class="book-subtitle">Avian influenza in Korea and worldwide, with forecasts</p>
-    <p>A non-commercial dashboard run by the Donghyun Lee AI Group at HUFS using public data only. It tracks wild bird and poultry farm outbreaks in Korea and outbreaks worldwide, refreshes twice a day, and keeps every daily forecast on record without revision.</p>
+    <p class="book-subtitle">HPAI outbreaks in Korea and worldwide</p>
+    <p>See outbreaks in Korea and worldwide on maps and season comparisons. For wild birds in Korea, it also estimates this season's detections, when the first detection may come, and the likelihood for each city and county.</p>
     <p class="book-meta book-actions"><a class="buy-action" href="https://hpai.kr/?lang=en">Open hpai.kr</a></p>
   </section>
   <section class="book-card" id="practice">

@@ -16,14 +16,12 @@ showTaxonomies: false
 showPagination: false
 ---
 
-<p class="page-lead">누구나 바로 쓸 수 있게 열어 둔 도구입니다.</p>
-
 <div class="book-card-grid not-prose">
   <section class="book-card" id="hpai">
-    <p class="eyebrow">연구실 운영 · 비영리</p>
+    <p class="eyebrow">연구실 운영</p>
     <h3>조류인플루엔자 대시보드</h3>
-    <p class="book-subtitle">고병원성 AI 국내·세계 발생 현황과 예측</p>
-    <p>한국외대 이동현 교수 연구실(Donghyun Lee AI Group)이 공개 자료만으로 운영하는 비영리 대시보드입니다. 국내 야생조류·가금 농장 발생과 세계 발생, 철새와 기온을 하루 두 번 새로 고치고, 날마다 낸 예측은 고치지 않고 기록합니다.</p>
+    <p class="book-subtitle">국내·세계 고병원성 AI 발생 현황</p>
+    <p>국내·세계 발생 현황을 지도와 시즌 비교로 봅니다. 이번 시즌 국내 야생조류의 검출 규모와 첫 검출 시기, 시군별 검출 가능성도 추정합니다.</p>
     <p class="book-meta book-actions"><a class="buy-action" href="https://hpai.kr">hpai.kr 열기</a></p>
   </section>
   <section class="book-card" id="practice">
