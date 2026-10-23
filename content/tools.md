@@ -21,7 +21,7 @@ showPagination: false
     <p class="eyebrow">연구실 운영</p>
     <h3>조류인플루엔자 대시보드</h3>
     <p class="book-subtitle">국내·세계 고병원성 AI 발생 현황</p>
-    <p>국내·세계 발생 현황을 지도와 시즌 비교로 봅니다. 이번 시즌 국내 야생조류의 검출 규모와 첫 검출 시기, 시군별 검출 가능성도 추정합니다.</p>
+    <p>국내·세계 발생 현황을 지도와 시즌 비교로 봅니다. 국내 야생조류는 이번 시즌 검출이 예년보다 적을지·비슷할지·많을지의 확률과 첫 검출 시기도 추정합니다.</p>
     <p class="book-meta book-actions"><a class="buy-action" href="https://hpai.kr">hpai.kr 열기</a></p>
   </section>
   <section class="book-card" id="practice">
