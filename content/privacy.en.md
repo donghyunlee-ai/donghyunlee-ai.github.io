@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 date: 2026-07-27
-lastmod: 2026-10-13
+lastmod: 2026-10-26
 summary: "How donghyunlee.kr processes personal information and uses Google Analytics."
 ShowReadingTime: false
 ShowToc: true
@@ -39,11 +39,15 @@ If an inquiry concerns laboratory or company work, the Operator will direct the 
 
 ### Python practice page
 
-The Python practice page at `donghyunlee.kr/practice/` requires no registration, and the code and practice records that users create are not sent to the Operator.
+The Python practice page at `donghyunlee.kr/practice/` requires no registration, and the code, answers, and practice records that users create are not sent to the Operator. However, when answers are graded, the page sends the “Grading statistics” described below to Google Analytics.
 
 - Code execution: Python code runs and is graded inside the user’s browser. For this, the page downloads the Python runtime (Pyodide) and fonts from jsDelivr.
 - Practice records: solved problems, answers in progress, and time attack and mock exam records are stored only in the user’s browser storage (localStorage). The Operator cannot see these records.
-- Usage analytics: the “Site usage analytics” described above also applies to this page. Code and practice records are not sent to Google Analytics.
+- Grading statistics: each time an answer is graded, the page sends the following to Google Analytics. The Operator uses them to find which problems learners often get wrong, and why, and to improve the problems, explanations, and textbooks.
+  - Sent: the course and problem ID; the problem type; the grading result (correct, wrong, or error, or a score); the name of the first error; how many times this browser has graded that problem; whether it was practice, a time attack, or a mock exam; and, when an answer matches a predefined common wrong answer, a code for that type of mistake
+  - Not sent: the code written, the answer entered, or the program output
+  - If you opt out using the methods in Section 5, grading statistics are not sent either.
+- Usage analytics: the “Site usage analytics” described above also applies to this page. Code, answers, and the practice records stored in this browser are not sent to Google Analytics.
 
 ## 2. Processing and retention periods
 
@@ -60,7 +64,7 @@ When a user accesses the site, information may be processed outside Korea as fol
 
 - Recipient: Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA)
 - Country: United States
-- Data transferred: the data listed under “Site usage analytics” above
+- Data transferred: the data listed under “Site usage analytics” above and the “Grading statistics” of the Python practice page
 - Timing and method: transmitted through an encrypted network while the site is being used
 - Purpose: providing Google Analytics, processing visitor statistics, and generating reports
 - Retention and use period: 14 months for user- and event-level data
@@ -99,4 +103,5 @@ If this policy changes, the changes and their effective date will be published o
 
 - Effective date: July 27, 2026
 - Revised: August 24, 2026 (Google Analytics retention changed from two months to 14 months; cookie lifetime changed from 60 days to a maximum of 14 months; the consent-banner approach changed to notice and opt-out guidance.)
-- Last revised: October 13, 2026 (Added the Python practice page section.)
+- Revised: October 13, 2026 (Added the Python practice page section.)
+- Last revised: October 26, 2026 (Added grading statistics to the Python practice page section.)
