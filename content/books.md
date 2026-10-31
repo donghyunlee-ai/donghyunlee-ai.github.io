@@ -2,7 +2,7 @@
 title: "도서"
 url: "/books/"
 date: 2026-08-16
-lastmod: 2026-09-16
+lastmod: 2026-10-31
 summary: "AI ERA SERIES — AI 시대에 무엇을 어떻게 공부해야 하는지를 다루는 책 시리즈."
 ShowReadingTime: false
 ShowToc: false
@@ -31,12 +31,12 @@ showPagination: false
     <h3>AI 시대의 파이썬 데이터 시각화</h3>
     <p class="book-subtitle">차트 한 장에서 대시보드까지</p>
     <p>AI가 차트를 다 그려 주는 시대, 무엇을 보여줄지는 누가 정할까요? 그리기 전에 보여줄 하나를 정하는 원칙으로, matplotlib부터 대시보드까지 다룹니다.</p>
-    <p class="book-meta"><strong>출간 일정 재검토 중</strong> · 예제 코드는 출간과 함께 GitHub에 공개됩니다.</p>
+    <p class="book-meta"><strong>출간 준비 중 · 예제·학습지원 공개</strong></p>
+    <p class="book-meta book-actions"><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization">예제 코드 (GitHub)</a><a class="practice-action" href="https://github.com/donghyunlee-ai/book-python-visualization/tree/main/learning-support">학습지원</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization/blob/main/ERRATA.md">정오표</a><span class="book-note">구매 링크는 출간 후 안내합니다.</span></p>
   </section>
 </div>
 
 <!-- 01 기본기: 2026-09-16 전자책 출간·저장소 공개 전환 완료(구매·코드 링크 반영). 2026-09-25 구매 링크를 교보문고로 교체, 가격 표기 삭제. 2026-10-13 연습 문제 버튼 추가(donghyunlee.kr/practice/#/basics, 별도 저장소 practice). 2026-10-14 메모 줄에 알라딘·예스24 구매 링크 추가(글자 링크, 교보는 구매 버튼 유지). 종이책(부크크)은 학기 후 — 나오면 카드에 구매 링크 추가.
-  02 시각화: 출간 일정 재검토 중(2026-09-25 — 강의 교재로 새로 쓰는 중, 부제 "차트 한 장에서 대시보드까지"). 출간일에 아래 링크로 카드 book-meta 교체 + 저장소 공개 전환:
-  <a href="https://github.com/donghyunlee-ai/book-python-visualization">예제 코드 (GitHub)</a> + 전자책 구매 링크(가격 표기 없음) -->
+  02 시각화: 2026-10-31 출간 준비 상태로 안내 갱신. 예제·학습지원·정오표 공개 링크 반영. 구매 링크는 출간 후 추가(가격 표기 없음). -->
 
 구매처와 예제 코드 저장소는 각 책 카드에서 안내합니다. 정오표는 저장소의 `ERRATA.md`에 바로 반영합니다.
