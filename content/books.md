@@ -34,6 +34,14 @@ showPagination: false
     <p class="book-meta"><strong>출간 준비 중 · 예제·학습지원 공개</strong></p>
     <p class="book-meta book-actions"><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization">예제 코드 (GitHub)</a><a class="practice-action" href="https://github.com/donghyunlee-ai/book-python-visualization/tree/main/learning-support">학습지원</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization/blob/main/ERRATA.md">정오표</a><span class="book-note">구매 링크는 출간 후 안내합니다.</span></p>
   </section>
+  <section class="book-card" id="github-homepage">
+    <p class="eyebrow">AI ERA SERIES</p>
+    <h3>AI 시대의 GitHub 홈페이지</h3>
+    <p class="book-subtitle">첫 공개부터 자동 갱신까지</p>
+    <p>코딩을 처음 배우는 대학생을 위한 GitHub Pages 입문서입니다. 자기 홈페이지를 만들고 공개한 뒤, Git으로 바뀐 줄을 확인하고 되돌립니다. Actions와 파이썬으로 내용을 갱신하고 수집 실패에 대응하는 방법까지 다룹니다.</p>
+    <p class="book-meta"><strong>출간 준비 중</strong></p>
+    <p class="book-note">발행일·정가·구매처는 확정 후 안내합니다. 예제 코드·정오표·전체 HTML 읽기 보조판·학습자 적용 과제는 출간에 맞춰 공개할 예정입니다.</p>
+  </section>
 </div>
 
 <!-- 01 기본기: 2026-09-16 전자책 출간·저장소 공개 전환 완료(구매·코드 링크 반영). 2026-09-25 구매 링크를 교보문고로 교체, 가격 표기 삭제. 2026-10-13 연습 문제 버튼 추가(donghyunlee.kr/practice/#/basics, 별도 저장소 practice). 2026-10-14 메모 줄에 알라딘·예스24 구매 링크 추가(글자 링크, 교보는 구매 버튼 유지). 종이책(부크크)은 학기 후 — 나오면 카드에 구매 링크 추가.
