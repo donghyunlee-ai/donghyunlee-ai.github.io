@@ -21,14 +21,34 @@ article header h2 {
   text-wrap: balance;
 }
 
-/* Header brand */
+/* Header brand: "Donghyun Lee ΛI Notes" on both languages, navy (logo decision 2026-11-02) */
 .main-menu .logo {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 0.55rem;
+  display: flex;
+  align-items: center;
+  color: #13294b;
+}
+
+.dark .main-menu .logo {
+  color: rgb(var(--color-neutral-50));
+}
+
+.main-menu .logo svg {
+  display: block;
+}
+
+/* Phones (under 400px): shrink the logo so it keeps clear of the header icons */
+@media (max-width: 399px) {
+  .main-menu .logo svg {
+    font-size: 0.8em;
+  }
 }
 
 /* Profile homepage */
+.home-name svg {
+  display: block;
+  margin: 0.2em auto 0.25em;
+}
+
 main:has(.home-actions) > article header > img {
   box-shadow:
     0 0 0 4px rgb(var(--color-neutral)),

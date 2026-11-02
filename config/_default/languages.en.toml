@@ -9,7 +9,7 @@ title = "Donghyun Lee’s Trustworthy AI Notes"
   isoCode = "en-US"
   rtl = false
   dateFormat = "January 2, 2006"
-  logo = "logo.png"
+  logo = "logo/notes-en.svg"
   description = "I build AI that works in the real world — explainable and trustworthy AI for infectious-disease and environmental forecasting."
   copyright = "© 2026 Donghyun Lee"
 
