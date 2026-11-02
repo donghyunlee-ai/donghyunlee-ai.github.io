@@ -29,7 +29,7 @@ I am currently developing this perspective into two Korean-language books in the
   <section class="profile-card">
     <p class="eyebrow">Education &amp; Research</p>
     <h3>Professor, Hankuk University of Foreign Studies</h3>
-    <p>I study and teach at the intersection of AI and society in the Division of Social Science &amp; AI Convergence. I earned my bachelor’s, master’s, and doctoral degrees in engineering from KAIST.<br><a class="underline" href="https://donghyunlee-lab.github.io/">Research group →</a></p>
+    <p>I study and teach at the intersection of AI and society in the Division of Social Science &amp; AI. I earned my bachelor’s, master’s, and doctoral degrees in engineering from KAIST.<br><a class="underline" href="https://donghyunlee-lab.github.io/">Research group →</a></p>
   </section>
   <section class="profile-card">
     <p class="eyebrow">Real-World Application</p>
