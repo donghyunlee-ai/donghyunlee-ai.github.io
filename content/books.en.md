@@ -1,7 +1,7 @@
 ---
 title: "Books"
 date: 2026-08-16
-lastmod: 2026-10-31
+lastmod: 2026-11-04
 summary: "AI ERA SERIES — Korean-language books about what and how to learn in the age of AI."
 ShowReadingTime: false
 ShowToc: false
@@ -32,14 +32,6 @@ showPagination: false
     <p>When AI can draw every chart, who decides what the chart should show? Beginning with the principle of choosing the one thing to communicate before drawing, this book covers the path from matplotlib to dashboards.</p>
     <p class="book-meta"><strong>Preparing for publication · Examples and learning support available</strong></p>
     <p class="book-meta book-actions"><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization">Example code (GitHub)</a><a class="practice-action" href="https://github.com/donghyunlee-ai/book-python-visualization/tree/main/learning-support">Learning support</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization/blob/main/ERRATA.md">Errata</a><span class="book-note">Purchase links will be added after publication.</span></p>
-  </section>
-  <section class="book-card" id="github-homepage">
-    <p class="eyebrow">AI ERA SERIES</p>
-    <h3>GitHub Homepages in the Age of AI</h3>
-    <p class="book-subtitle">From first publication to automatic updates</p>
-    <p>A Korean-language introduction to GitHub Pages for university students new to coding. Build and publish a personal website, inspect and undo changes with Git, then use Actions and Python to update its content and handle data-fetch failures.</p>
-    <p class="book-meta"><strong>Preparing for publication</strong></p>
-    <p class="book-note">The publication date, price, and purchase links will be announced when confirmed. Example code, errata, an HTML reading companion, and learner exercises are planned for release with the book.</p>
   </section>
 </div>
 
