@@ -1,5 +1,9 @@
-{{/* White DL favicon; the lab keeps the navy DL (logo decision 2026-11-02). Bump v when the icons change. */}}
+{{/* White DL favicon; the lab keeps the navy DL (logo decision 2026-11-02). Bump v only when the icon design changes:
+     Google Search wants stable favicon URLs. favicon-96x96.png is for Google Search, which does not read SVG favicons
+     and recommends icons larger than 48px (2026-11-09). It is rendered from favicon.svg with
+     `rsvg-convert -w 96 -h 96 static/favicon.svg -o static/favicon-96x96.png`. */}}
 {{ $v := "20261102" }}
+<link rel="icon" href="{{ printf "favicon-96x96.png?v=%s" $v | relURL }}" type="image/png" sizes="96x96">
 <link rel="icon" href="{{ printf "favicon.ico?v=%s" $v | relURL }}" sizes="32x32">
 <link rel="icon" href="{{ printf "favicon.svg?v=%s" $v | relURL }}" type="image/svg+xml">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ printf "apple-touch-icon.png?v=%s" $v | relURL }}">
