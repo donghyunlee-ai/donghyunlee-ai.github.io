@@ -20,7 +20,7 @@ showPagination: false
     <p class="eyebrow">Run by the lab</p>
     <h3>HPAI Dashboard</h3>
     <p class="book-subtitle">HPAI outbreaks in Korea and worldwide</p>
-    <p>See outbreaks in Korea and worldwide on maps and season comparisons. For wild birds in Korea, it also shows the chance that this season will have fewer, about the same, or more detections than past seasons, and when the first detection may come.</p>
+    <p>See outbreaks in Korea and worldwide on maps and season comparisons. For wild birds in Korea, it also forecasts how many detections this season will have, when the first detection may come, and the chance of detection in each city and county.</p>
     <p class="book-meta book-actions"><a class="buy-action" href="https://hpai.kr/?lang=en">Open hpai.kr</a></p>
   </section>
   <section class="book-card" id="practice">
