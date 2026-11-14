@@ -31,7 +31,7 @@ showPagination: false
     <p class="book-subtitle">From a single chart to a dashboard</p>
     <p>When AI can draw every chart, who decides what the chart should show? Beginning with the principle of choosing the one thing to communicate before drawing, this book covers the path from matplotlib to dashboards.</p>
     <p class="book-meta"><strong>Preparing for publication · Examples and learning support available</strong></p>
-    <p class="book-meta book-actions"><a class="practice-action" href="/practice/en/data-visualization/">Practice problems</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization">Example code (GitHub)</a><a class="practice-action" href="https://github.com/donghyunlee-ai/book-python-visualization/tree/main/learning-support">Learning support</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization/blob/main/ERRATA.md">Errata</a><span class="book-note">Purchase links will be added after publication.</span></p>
+    <p class="book-meta book-actions"><a class="practice-action" href="/practice/en/data-visualization/">Practice problems</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization">Example code (GitHub)</a><a class="practice-action" href="https://github.com/donghyunlee-ai/book-python-visualization/tree/main/learning-support">Learning support</a><span class="book-note">Purchase links will be added after publication.</span></p>
   </section>
 </div>
 
