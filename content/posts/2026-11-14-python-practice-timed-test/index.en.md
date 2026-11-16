@@ -4,7 +4,7 @@ date: 2026-11-14
 tags: ["Python", "Coding Test Practice", "Data Visualization", "matplotlib", "Coding Test", "Timed Practice"]
 summary: "The fastest way to check what you have studied is to solve problems against the clock and get them graded. The Python coding test practice site that opened on October 13 grades even charts against a target figure, and redraws them with new values to catch memorized answers."
 draft: false
-translation_source_hash: "65a24501c9538635579a58c18c0dac5959e57230f263447b1781d095409e03ec"
+translation_source_hash: "24897178726b993ced86c59bf6b0372f5626f19738af92d1ab29a92170c28ec3"
 ---
 
 The fastest way to check what you have studied is to solve problems against the clock and get them graded. So I built a Python coding test practice site where students and readers of my books can check for themselves. It is a place to see whether what you learned has sunk in, and whether you are studying well right now.
@@ -33,7 +33,7 @@ My reading is this: skill grows when, while solving a single problem, you focus 
 
 ## Limits of the practice ground
 
-The limits are clear. That my students improved is something I saw in class, not a result I measured separately. There are also things the chart grader cannot read. In matplotlib charts, it does not check the colors of heatmap cells, the width and transparency of lines, or the position of the legend. Python in the browser has no Korean font, so the text inside charts is written in English. The first time you open a visualization problem, your browser downloads about 20 MB of plotting libraries. Because grading happens in the browser, it cannot stop anyone from editing the results. So these scores are not used for course grades.
+The limits are clear. That my students improved is something I saw in class, not a result I measured separately. There are also things the chart grader cannot read. In matplotlib charts, it does not check the colors of heatmap cells, the width and transparency of lines, or the position of the legend. Python in the browser has no Korean font, so the text inside charts is written in English. The first time you open a visualization problem, your browser downloads about 20 MB of plotting libraries.
 
 I hope students and people studying on their own will use this practice ground often. Close the book, start the clock, and sit in front of an empty code box. What you know and what you do not know will show quickly.
 
