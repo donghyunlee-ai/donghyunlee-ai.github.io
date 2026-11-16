@@ -1,0 +1,12 @@
+{
+  "files": {
+    "index.en.md": "6e389b89e401b68865c40e7c971ff7d4b0b75d74381bc0b0ba66b68fca3f9942",
+    "index.md": "d16b6e61641efd9fb4692a63853497a5156c616c6f9390f2f8f35688ab508068",
+    "그림-01-값을-바꾼-채점.en.png": "ea6ff17a60aee76697a4e9cf64e2d1d63bfb5a94d6ffcdd88d63a8f06a15bbd4",
+    "그림-01-값을-바꾼-채점.png": "65befe4e04c947e8de1dff251583b57f7c9d6e63ebdfe6811f3969ffaab248b9"
+  },
+  "post": "2026-11-14-python-practice-timed-test",
+  "release_hash": "5ee0997d9c8a1a4939490813b8bac4bf54b71419f7039ecdf996d585c3cea22b",
+  "schema_version": 2,
+  "synced_at": "2026-11-16T07:26:42+00:00"
+}
