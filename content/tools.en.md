@@ -25,7 +25,7 @@ showPagination: false
   </section>
   <section class="book-card" id="practice">
     <p class="eyebrow">AI ERA SERIES practice</p>
-    <h3>Python Practice</h3>
+    <h3>Python Coding Test</h3>
     <p class="book-subtitle">Problems graded in your browser</p>
     <p>Python problems that follow the AI ERA SERIES books and courses, solved and graded in your browser with nothing to install. There are three subjects: basics, data visualization, and coding tests.</p>
     <p class="book-meta book-actions"><a class="practice-action" href="/practice/en/">Start practicing</a></p>

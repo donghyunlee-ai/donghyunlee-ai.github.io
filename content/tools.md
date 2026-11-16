@@ -26,7 +26,7 @@ showPagination: false
   </section>
   <section class="book-card" id="practice">
     <p class="eyebrow">AI ERA SERIES 연습 문제</p>
-    <h3>파이썬 연습</h3>
+    <h3>파이썬 코딩 테스트</h3>
     <p class="book-subtitle">브라우저에서 바로 채점되는 연습 문제</p>
     <p>AI ERA SERIES 책과 강의에 맞춘 파이썬 문제를 설치 없이 브라우저에서 풀고 바로 채점받습니다. 기본기, 데이터 시각화, 코딩 테스트 세 과목이 있습니다.</p>
     <p class="book-meta book-actions"><a class="practice-action" href="/practice/">연습 시작</a></p>
