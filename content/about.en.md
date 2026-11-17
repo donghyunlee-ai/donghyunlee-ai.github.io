@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2026-07-11
-lastmod: 2026-11-15
+lastmod: 2026-11-17
 summary: "Donghyun Lee — professor at Hankuk University of Foreign Studies and founder of AI Korea Inc., applying trustworthy AI to high-stakes forecasting."
 ShowReadingTime: false
 ShowToc: false
@@ -16,6 +16,8 @@ showPagination: false
 ---
 
 <p class="page-lead"><strong>When AI says, “Avian influenza will spread next week,”<br>how far should we trust that answer?</strong></p>
+
+My lab runs an avian influenza dashboard that shows outbreaks in Korea and worldwide, with detection forecasts for wild birds in Korea. <a href="https://hpai.kr/?lang=en">hpai.kr →</a>
 
 I study that “how far.” My work centers on **trustworthy AI**: when predictions and simulations from AI can be trusted in high-stakes physical and social systems—and when they should be rejected. I have used deep learning to forecast problems such as algal blooms and infectious disease, where errors can be costly. More recently, I have been testing whether LLM-based synthetic agents that respond like people are valid tools for social and behavioral research.
 

@@ -50,6 +50,15 @@ article header h2 {
   white-space: nowrap;
 }
 
+/* Narrow desktop windows (853–1023px, 96px side padding): tighten the menu gap from 20px to
+   12px. With "Avian Flu" in place of "Tools" the English menu ran past the window by up to
+   37px at 853–890px (2026-11-17) */
+@media (min-width: 853px) and (max-width: 1023px) {
+  .main-menu nav {
+    column-gap: 0.75rem;
+  }
+}
+
 /* Profile homepage */
 .home-name svg {
   display: block;

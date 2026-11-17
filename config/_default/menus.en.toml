@@ -21,10 +21,11 @@
   url = "/practice/en/"
   weight = 40
 
-# 공개 도구(2026-10-20 사용자 "동현리 KR에도 툴 메뉴를 만들어서"): 연구실이 운영하는 hpai.kr과 파이썬 연습 카드
+# 연구실이 운영하는 조류인플루엔자 대시보드 hpai.kr의 영어 화면으로 바로 간다(2026-11-17 사용자 결정, 연습 사이트 메뉴와 같은 이름·주소).
+# 전에는 'Tools'(/en/tools/, 2026-10-20)였다. /en/tools/ 쪽은 옛 주소·검색 색인 때문에 남겨 둔다. 바깥 주소라 테마가 위 메뉴에서는 새 탭으로 연다(아래 메뉴는 같은 탭).
 [[main]]
-  name = "Tools"
-  pageRef = "tools"
+  name = "Avian Flu"
+  url = "https://hpai.kr/?lang=en"
   weight = 50
 
 [[footer]]
@@ -48,8 +49,8 @@
   weight = 35
 
 [[footer]]
-  name = "Tools"
-  pageRef = "tools"
+  name = "Avian Flu"
+  url = "https://hpai.kr/?lang=en"
   weight = 37
 
 [[footer]]
