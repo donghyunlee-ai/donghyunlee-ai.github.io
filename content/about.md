@@ -63,7 +63,7 @@ showPagination: false
 
 ## 논문과 수상
 
-*Journal of Cleaner Production*, *Technological Forecasting and Social Change*, *Expert Systems with Applications* 등 국제 학술지에 연구 논문 20여 편을 발표했습니다. 환경 연구에 특화된 멀티모달 LLM 대화형 AI를 개발해 한국환경연구원 원장상을 받았고, 2008년에는 대한민국 인재상(대통령상)을 수상했습니다. *Journal of Innovation &amp; Knowledge* 편집위원으로 활동하고 있습니다.
+*Journal of Cleaner Production*, *Technological Forecasting and Social Change*, *Expert Systems with Applications* 등 국제 학술지에 연구 논문 20여 편을 발표했습니다. 환경 연구에 특화된 멀티모달 LLM 대화형 AI를 개발해 한국환경연구원 원장상을 받았고, 2008년에는 대한민국 인재상(대통령상)을 수상했습니다.
 
 <aside class="contact-panel">
   <h2>연락</h2>

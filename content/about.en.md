@@ -61,7 +61,7 @@ Previously, I was an associate professor at Tech University of Korea and an asso
 
 ## Publications and awards
 
-I have published more than twenty research papers in international journals, including *Journal of Cleaner Production*, *Technological Forecasting and Social Change*, and *Expert Systems with Applications*. I received the President’s Award from the Korea Environment Institute for developing a multimodal-LLM conversational AI specialized for environmental research. In 2008, I received the Talent Award of Korea, a presidential award. I also serve on the editorial board of *Journal of Innovation &amp; Knowledge*.
+I have published more than twenty research papers in international journals, including *Journal of Cleaner Production*, *Technological Forecasting and Social Change*, and *Expert Systems with Applications*. I received the President’s Award from the Korea Environment Institute for developing a multimodal-LLM conversational AI specialized for environmental research. In 2008, I received the Talent Award of Korea, a presidential award.
 
 <aside class="contact-panel">
   <h2>Contact</h2>
