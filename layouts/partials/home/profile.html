@@ -1,53 +1,91 @@
+{{/* 첫 화면(테마 profile.html을 덮어씀, 2026-11-17): 가로 명함 → 두 칸
+     (왼쪽 '최근' = 글 + data/home.yaml 소식을 날짜순으로 합쳐 3줄, 오른쪽 '만든 것' = 날짜 없는 3줄). */}}
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
-<article
-  class="{{ if not .Site.Params.homepage.showRecent }}
-    h-full
-  {{ end }} flex flex-col items-center justify-center text-center">
-  <header class="relative px-1 py-1 flex flex-col items-center mb-3">
-    {{ with .Site.Params.Author.image }}
-      {{ $authorImage := "" }}
-      {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-        {{ $authorImage = resources.GetRemote . }}
-      {{ else }}
-        {{ $authorImage = resources.Get . }}
-      {{ end }}
-      {{ if $authorImage }}
-        {{ $final := $authorImage }}
-        {{ $squareImage := $authorImage }}
-        {{ if not (or $disableImageOptimization (eq $authorImage.MediaType.SubType "svg")) }}
-          {{ $final = $authorImage.Fill (print "288x288 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
-          {{ $shortSide := int (math.Min $authorImage.Width $authorImage.Height) }}
-          {{ $squareImage = $authorImage.Crop (printf "%dx%d" $shortSide $shortSide ) }}
-        {{ end }}
-        <img
-          class="mb-2 h-36 w-36 rounded-full"
-          width="144"
-          height="144"
-          alt="{{ $.Site.Params.Author.name | default `Author` }}"
-          src="{{ $final.RelPermalink }}"
-          data-zoom-src="{{ $squareImage.RelPermalink }}">
-      {{ end }}
+{{ $lang := site.Language.Lang }}
+{{ $home := hugo.Data.home }}
+{{ $L := index $home.labels $lang }}
+
+<article class="home-card">
+  {{ with .Site.Params.Author.image }}
+    {{ $authorImage := "" }}
+    {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+      {{ $authorImage = resources.GetRemote . }}
+    {{ else }}
+      {{ $authorImage = resources.Get . }}
     {{ end }}
-    {{/* Name under the photo drawn as outlines so it matches the logo (logo decision 2026-11-02) */}}
-    <h1 class="home-name text-4xl font-extrabold">
-      {{ with resources.Get (printf "logo/hero-%s.svg" site.Language.Lang) }}
+    {{ if $authorImage }}
+      {{ $final := $authorImage }}
+      {{ $squareImage := $authorImage }}
+      {{ if not (or $disableImageOptimization (eq $authorImage.MediaType.SubType "svg")) }}
+        {{ $final = $authorImage.Fill (print "192x192 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
+        {{ $shortSide := int (math.Min $authorImage.Width $authorImage.Height) }}
+        {{ $squareImage = $authorImage.Crop (printf "%dx%d" $shortSide $shortSide ) }}
+      {{ end }}
+      <img
+        class="home-card__photo"
+        width="96"
+        height="96"
+        alt="{{ $.Site.Params.Author.name | default `Author` }}"
+        src="{{ $final.RelPermalink }}"
+        data-zoom-src="{{ $squareImage.RelPermalink }}">
+    {{ end }}
+  {{ end }}
+  <div class="home-card__id">
+    {{/* 이름은 로고와 같은 글자 그림(2026-11-02) */}}
+    <h1 class="home-name">
+      {{ with resources.Get (printf "logo/hero-%s.svg" $lang) }}
         <span class="sr-only">{{ $.Site.Params.Author.name }}</span>
         {{ .Content | safeHTML }}
       {{ else }}
         {{ .Site.Params.Author.name | default .Site.Title }}
       {{ end }}
     </h1>
+  </div>
+  <div class="home-card__text">
     {{ with .Site.Params.Author.headline }}
-      <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
-        {{ . | markdownify }}
-      </h2>
+      <p class="home-headline">{{ . | markdownify }}</p>
     {{ end }}
-    <div class="mt-1 text-2xl">
-      {{ partialCached "author-links.html" . }}
-    </div>
-  </header>
-  <section class="prose dark:prose-invert w-full">{{ .Content }}</section>
+    {{ .Content }}
+    <div class="home-card__links">{{ partialCached "author-links.html" . }}</div>
+  </div>
 </article>
-<section>
-  {{ partial "recent-articles/main.html" . }}
-</section>
+
+{{/* '최근': 글과 소식을 합쳐 날짜순 위 3줄 */}}
+{{ $items := slice }}
+{{ range first 3 (where site.RegularPages "Section" "posts").ByDate.Reverse }}
+  {{ $items = $items | append (dict "date" (.Date.Format "2006-01-02") "kind" $L.kind_post "title" .Title "url" .RelPermalink "external" false) }}
+{{ end }}
+{{ range $n := $home.news }}
+  {{ with index $n $lang }}
+    {{ $items = $items | append (dict "date" $n.date "kind" (index $L (printf "kind_%s" $n.kind)) "title" .title "url" .url "external" (strings.HasPrefix .url "http")) }}
+  {{ end }}
+{{ end }}
+{{ $items = sort $items "date" "desc" }}
+
+<div class="home-columns">
+  <section class="home-recent" aria-labelledby="home-recent-title">
+    <h2 id="home-recent-title">{{ $L.recent }}</h2>
+    <ul class="home-list">
+      {{ range first 3 $items }}
+        <li>
+          <span class="home-list__meta"><time datetime="{{ .date }}">{{ (time.AsTime .date).Format $L.month }}</time> · {{ .kind }}</span>
+          <a href="{{ .url }}"{{ if .external }} target="_blank" rel="noopener"{{ end }}>{{ .title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+    <p class="home-more"><a href="{{ "posts/" | relLangURL }}">{{ $L.all_posts }}</a></p>
+  </section>
+  <section class="home-made" aria-labelledby="home-made-title">
+    <h2 id="home-made-title">{{ $L.made }}</h2>
+    <ul class="home-list">
+      {{ range $home.made }}
+        {{ with index . $lang }}
+          <li>
+            <a href="{{ .url }}"{{ if strings.HasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ .title }}</a>
+            <span class="home-list__desc">{{ .desc }}</span>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </section>
+</div>

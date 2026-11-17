@@ -1,0 +1,73 @@
+# 첫 화면(layouts/partials/home/profile.html)에 쓰는 문구와 목록(2026-11-17).
+# 한 항목에 한국어(ko)와 영어(en)를 함께 적어 한쪽 홈에만 올라가는 일을 막는다.
+
+# 첫 화면 문구
+labels:
+  ko:
+    recent: "최근"
+    made: "만든 것"
+    all_posts: "글 전체 보기 →"
+    kind_post: "글"
+    kind_book: "책"
+    kind_site: "사이트"
+    kind_talk: "강연"
+    month: "2006.01"
+  en:
+    recent: "Recent"
+    made: "Projects"
+    all_posts: "All writing →"
+    kind_post: "Writing"
+    kind_book: "Book"
+    kind_site: "Site"
+    kind_talk: "Talk"
+    month: "Jan 2006"
+
+# '최근'에 글과 함께 날짜순으로 섞여 들어가는 소식. 첫 화면에는 글과 합쳐 위에서 3줄만 나온다.
+# 싣는 것: 방문자가 새로 읽거나 쓸 수 있게 된 것(책 출간, 연습 사이트 새 과목·언어, 개인 자격 강연).
+# 싣지 않는 것: 로고·메뉴·문구 손질, hpai·연습 사이트의 잦은 갱신, 연구실·회사 소식, 출간 전 책.
+# 새 글은 적지 않는다(글 목록에서 자동으로 들어온다). 날짜는 실제 공개일, 화면에는 연·월만 보인다.
+# kind: book | site | talk
+news:
+  - date: "2026-11-15"  # 유페이퍼 전자책 출간
+    kind: book
+    ko:
+      title: "『AI 시대의 파이썬 데이터 시각화』 전자책 출간"
+      url: "/books/#vis"
+    en:
+      title: "Python Data Visualization in the Age of AI is out as a Korean ebook"
+      url: "/en/books/"
+  - date: "2026-10-13"
+    kind: site
+    ko:
+      title: "파이썬 코딩 테스트 연습 사이트 공개"
+      url: "/practice/"
+    en:
+      title: "Python Practice opens, with courses in English"
+      url: "/practice/en/"
+
+# '만든 것': 날짜 없이 늘 있는 곳. 3줄을 넘기지 않는다. 회사 제품·서비스는 넣지 않는다.
+made:
+  - ko:
+      title: "도서"
+      desc: "AI ERA SERIES 전자책 두 권 — 파이썬 기본기, 파이썬 데이터 시각화"
+      url: "/books/"
+    en:
+      title: "Books"
+      desc: "Two Korean ebooks in the AI ERA SERIES — Python fundamentals and data visualization"
+      url: "/en/books/"
+  - ko:
+      title: "파이썬 코딩 테스트 연습"
+      desc: "브라우저에서 풀고 바로 채점받는 파이썬 문제, 한국어·영어"
+      url: "/practice/"
+    en:
+      title: "Python Practice"
+      desc: "Python problems you solve and get graded in the browser, in Korean and English"
+      url: "/practice/en/"
+  - ko:
+      title: "조류인플루엔자 대시보드"
+      desc: "연구실이 운영하는 국내·세계 발생 현황과 예측"
+      url: "https://hpai.kr/"
+    en:
+      title: "Avian influenza dashboard"
+      desc: "Outbreaks in Korea and worldwide, with forecasts — run by my lab"
+      url: "https://hpai.kr/?lang=en"

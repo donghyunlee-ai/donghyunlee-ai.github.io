@@ -5,7 +5,4 @@ description: "I build AI that works in the real world — explainable and trustw
 
 <p class="home-role">Professor, Division of Social Science &amp; AI, Hankuk University of Foreign Studies · PhD in Engineering, KAIST</p>
 
-<div class="home-actions not-prose" aria-label="Primary links">
-  <a class="primary-action" href="/en/posts/">Read the latest</a>
-  <a class="secondary-action" href="/en/about/">About</a>
-</div>
+<p class="home-about"><a href="/en/about/">About &amp; contact →</a></p>

@@ -5,7 +5,4 @@ description: "현장에서 작동하는 AI를 만듭니다 — 감염병·환경
 
 <p class="home-role">한국외국어대학교 Social Science &amp; AI융합학부 교수 · KAIST 공학박사</p>
 
-<div class="home-actions not-prose" aria-label="주요 링크">
-  <a class="primary-action" href="/posts/">최근 글 읽기</a>
-  <a class="secondary-action" href="/about/">소개 보기</a>
-</div>
+<p class="home-about"><a href="/about/">소개·문의 →</a></p>
