@@ -44,6 +44,12 @@ article header h2 {
   }
 }
 
+/* Keep each menu item on one line: the English "Coding Tests" broke into two lines
+   at 860–950px windows (2026-11-17) */
+.main-menu nav a {
+  white-space: nowrap;
+}
+
 /* Profile homepage */
 .home-name svg {
   display: block;
