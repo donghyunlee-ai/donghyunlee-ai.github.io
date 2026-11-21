@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2026-07-11
-lastmod: 2026-11-17
+lastmod: 2026-11-21
 summary: "Donghyun Lee — professor at Hankuk University of Foreign Studies and founder of AI Korea Inc., applying trustworthy AI to high-stakes forecasting."
 ShowReadingTime: false
 ShowToc: false
@@ -23,7 +23,7 @@ I study that “how far.” My work centers on **trustworthy AI**: when predicti
 
 One accuracy score is not enough to make AI trustworthy. To use AI in practice, we need to see both the basis for its answer and the conditions under which it breaks down. The writing, teaching, and research on this site all return to that question.
 
-I am currently developing this perspective into two Korean-language books in the AI ERA SERIES: *Python Fundamentals in the Age of AI* and *Python Data Visualization in the Age of AI*, — both are out as Korean ebooks. <a href="/en/books/">About the books →</a>
+I am currently developing this perspective into two Korean-language books in the AI ERA SERIES: *Python Fundamentals in the Age of AI* and *Python Data Visualization in the Age of AI* — both are out as Korean ebooks. <a href="/en/books/">About the books →</a>
 
 ## What I do
 
@@ -32,11 +32,6 @@ I am currently developing this perspective into two Korean-language books in the
     <p class="eyebrow">Education &amp; Research</p>
     <h3>Professor, Hankuk University of Foreign Studies</h3>
     <p>I study and teach at the intersection of AI and society in the Division of Social Science &amp; AI. I earned my bachelor’s, master’s, and doctoral degrees in engineering from KAIST.<br><a class="underline" href="https://donghyunlee-lab.github.io/">Research group →</a></p>
-  </section>
-  <section class="profile-card">
-    <p class="eyebrow">Real-World Application</p>
-    <h3>CEO, AI Korea Inc.</h3>
-    <p>I founded an AI startup and directly develop and operate practical AI services in infectious disease and the environment.</p>
   </section>
 </div>
 

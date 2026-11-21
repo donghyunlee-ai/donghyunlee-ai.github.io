@@ -35,14 +35,14 @@ news:
       url: "/books/#vis"
     en:
       title: "Python Data Visualization in the Age of AI is out as a Korean ebook"
-      url: "/en/books/"
+      url: "/en/books/#vis"
   - date: "2026-10-13"
     kind: site
     ko:
-      title: "파이썬 코딩 테스트 연습 사이트 공개"
+      title: "파이썬 코딩 테스트 사이트 공개"
       url: "/practice/"
     en:
-      title: "Python Practice opens, with courses in English"
+      title: "Python Coding Test opens, with courses in English"
       url: "/practice/en/"
 
 # '만든 것': 날짜 없이 늘 있는 곳. 3줄을 넘기지 않는다. 회사 제품·서비스는 넣지 않는다.
@@ -56,12 +56,12 @@ made:
       desc: "Two Korean ebooks in the AI ERA SERIES — Python fundamentals and data visualization"
       url: "/en/books/"
   - ko:
-      title: "파이썬 코딩 테스트 연습"
-      desc: "브라우저에서 풀고 바로 채점받는 파이썬 문제, 한국어·영어"
+      title: "파이썬 코딩 테스트"
+      desc: "가입·설치 없이 풀고 바로 채점받는 파이썬 연습 문제, 한국어·영어"
       url: "/practice/"
     en:
-      title: "Python Practice"
-      desc: "Python problems you solve and get graded in the browser, in Korean and English"
+      title: "Python Coding Test"
+      desc: "Python practice problems with instant grading and no sign-up, in Korean and English"
       url: "/practice/en/"
   - ko:
       title: "조류인플루엔자 대시보드"

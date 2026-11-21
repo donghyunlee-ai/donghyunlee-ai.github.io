@@ -6,6 +6,7 @@ enableA11y = true
 enableSearch = true
 enableCodeCopy = false
 enableStructuredBreadcrumbs = true
+highlightCurrentMenuArea = true
 
 mainSections = ["posts"]
 disableImageOptimization = false

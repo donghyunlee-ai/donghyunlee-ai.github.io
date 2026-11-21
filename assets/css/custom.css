@@ -6,6 +6,19 @@ html {
   word-break: keep-all;
 }
 
+/* Blowfish utility classes reset word-break to normal on headings and cards;
+   keep Korean words intact across post cards, headers, and lists (2026-11-21). */
+:lang(ko) h1,
+:lang(ko) h2,
+:lang(ko) h3,
+:lang(ko) h4,
+:lang(ko) p,
+:lang(ko) li,
+:lang(ko) a {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
 .prose {
   line-height: 1.8;
   overflow-wrap: break-word;
@@ -16,9 +29,40 @@ html {
   text-wrap: pretty;
 }
 
-article header h1,
-article header h2 {
+#single_header h1 {
   text-wrap: balance;
+}
+
+:focus-visible {
+  outline: 2px solid rgb(var(--color-secondary-600));
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+.dark :focus-visible {
+  outline-color: rgb(var(--color-secondary-400));
+}
+
+/* Inline code readability in light and dark prose */
+.prose :not(pre) > code {
+  border: 1px solid rgb(var(--color-neutral-200));
+  border-radius: 0.3rem;
+  background: rgb(var(--color-neutral-100));
+  padding: 0.1em 0.35em;
+  color: rgb(var(--color-primary-800));
+  font-size: 0.88em;
+  font-weight: 600;
+}
+
+.prose :not(pre) > code::before,
+.prose :not(pre) > code::after {
+  content: none;
+}
+
+.dark .prose :not(pre) > code {
+  border-color: rgb(var(--color-neutral-600));
+  background: rgb(var(--color-neutral-700));
+  color: rgb(var(--color-primary-100));
 }
 
 /* Header brand: "Donghyun Lee ΛI Notes" on both languages, navy (logo decision 2026-11-02).
@@ -37,25 +81,58 @@ article header h2 {
   display: block;
 }
 
-/* Phones (under 400px): shrink the logo so it keeps clear of the header icons */
+/* Phones (under 400px & 360px): scale the logo uniformly so it stays clear of header icons */
 @media (max-width: 399px) {
   .main-menu .logo svg {
-    font-size: 0.8em;
+    font-size: 0.78em;
   }
 }
 
-/* Keep each menu item on one line: the English "Coding Tests" broke into two lines
-   at 860–950px windows (2026-11-17) */
+@media (max-width: 359px) {
+  .main-menu {
+    gap: 0.25rem;
+  }
+  .main-menu .logo svg {
+    font-size: 0.7em;
+  }
+}
+
+/* Keep each menu item on one line */
 .main-menu nav a {
   white-space: nowrap;
 }
 
-/* Narrow desktop windows (853–1023px, 96px side padding): tighten the menu gap from 20px to
-   12px. With "Avian Flu" in place of "Tools" the English menu ran past the window by up to
-   37px at 853–890px (2026-11-17) */
-@media (min-width: 853px) and (max-width: 1023px) {
+.main-menu nav a[aria-current="page"] span {
+  color: #13294b;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 1.5px;
+}
+
+.dark .main-menu nav a[aria-current="page"] span {
+  color: #7dd3fc;
+}
+
+/* Medium & narrow desktop windows (768–1159px): scale logo and nav spacing smoothly so
+   English "Writing About Books Coding Tests Avian Flu EN" never overflows the container */
+@media (min-width: 768px) and (max-width: 959px) {
+  .main-menu .logo svg {
+    font-size: 0.8em;
+  }
   .main-menu nav {
-    column-gap: 0.75rem;
+    column-gap: 0.5rem;
+    font-size: 0.88rem;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1159px) {
+  .main-menu .logo svg {
+    font-size: 0.9em;
+  }
+  .main-menu nav {
+    column-gap: 0.7rem;
+    font-size: 0.94rem;
   }
 }
 
@@ -84,9 +161,13 @@ article header h2 {
   width: 6rem;
   height: 6rem;
   border-radius: 9999px;
-  box-shadow:
-    0 0 0 3px rgb(var(--color-neutral)),
-    0 0 0 5px rgb(var(--color-secondary-200));
+  /* Hairline edge only (WIRED/Stripe style): the old mint ring clashed with the cream
+     photo background and the navy logo (2026-11-17) */
+  box-shadow: 0 0 0 1px rgb(var(--color-neutral-200));
+}
+
+.dark .home-card__photo {
+  box-shadow: 0 0 0 1px rgb(var(--color-neutral-700));
 }
 
 .home-card__id {
@@ -95,6 +176,8 @@ article header h2 {
 
 .home-card__text {
   grid-area: text;
+  display: flex;
+  flex-direction: column;
 }
 
 .home-card .home-name {
@@ -110,13 +193,13 @@ article header h2 {
 .home-headline {
   margin: 0;
   max-width: 44rem;
-  color: rgb(var(--color-neutral-600));
+  color: rgb(var(--color-neutral-700));
   font-size: 1.05rem;
-  line-height: 1.6;
+  line-height: 1.62;
 }
 
 .dark .home-headline {
-  color: rgb(var(--color-neutral-300));
+  color: rgb(var(--color-neutral-200));
 }
 
 .home-role {
@@ -136,23 +219,32 @@ article header h2 {
   flex-wrap: wrap;
   align-items: center;
   gap: 0.25rem 1.25rem;
-  margin-top: 0.6rem;
+  margin-top: 0.65rem;
   font-size: 1.15rem;
 }
 
-.home-card__text .home-about {
-  margin: 0.6rem 0 0;
-  font-size: 0.95rem;
-  font-weight: 600;
+.home-card__links a {
+  color: rgb(var(--color-neutral-600));
+  transition: color 140ms ease;
 }
 
-.home-card__text {
-  display: flex;
-  flex-direction: column;
+.home-card__links a:hover {
+  color: rgb(var(--color-primary-700));
+}
+
+.dark .home-card__links a {
+  color: rgb(var(--color-neutral-300));
+}
+
+.dark .home-card__links a:hover {
+  color: rgb(var(--color-secondary-300));
 }
 
 .home-card__text .home-about {
   order: 3;
+  margin: 0.6rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 600;
 }
 
 .home-columns {
@@ -167,9 +259,15 @@ article header h2 {
 }
 
 .home-columns h2 {
-  margin: 0 0 0.5rem;
-  font-size: 1.15rem;
+  margin: 0 0 0.55rem;
+  color: rgb(var(--color-neutral-900));
+  font-size: 1.12rem;
   font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.dark .home-columns h2 {
+  color: rgb(var(--color-neutral-50));
 }
 
 .home-list {
@@ -179,7 +277,7 @@ article header h2 {
 }
 
 .home-list li {
-  padding: 0.8rem 0;
+  padding: 0.82rem 0;
   border-bottom: 1px solid rgb(var(--color-neutral-200));
 }
 
@@ -205,32 +303,32 @@ article header h2 {
 }
 
 .dark .home-list a:hover {
-  color: rgb(var(--color-primary-300));
+  color: rgb(var(--color-primary-200));
 }
 
 .home-list__meta {
   display: block;
-  margin-bottom: 0.1rem;
-  color: rgb(var(--color-neutral-500));
+  margin-bottom: 0.14rem;
+  color: rgb(var(--color-neutral-600));
   font-size: 0.82rem;
   font-variant-numeric: tabular-nums;
 }
 
 .home-list__desc {
   display: block;
-  margin-top: 0.1rem;
+  margin-top: 0.14rem;
   color: rgb(var(--color-neutral-600));
   font-size: 0.92rem;
-  line-height: 1.55;
+  line-height: 1.56;
 }
 
 .dark .home-list__desc,
 .dark .home-list__meta {
-  color: rgb(var(--color-neutral-400));
+  color: rgb(var(--color-neutral-300));
 }
 
 .home-more {
-  margin: 0.9rem 0 0;
+  margin: 0.95rem 0 0;
   font-size: 0.95rem;
   font-weight: 600;
 }
@@ -278,9 +376,22 @@ article header h2 {
   display: none;
 }
 
-/* Supporting pages */
+/* Supporting pages: let 2-column book & profile card grids use a comfortable wide measure
+   only when 2+ cards are present, keeping 1-card pages aligned to the prose reading column */
+.article-content:has(.book-card-grid > :nth-child(2)),
+.article-content:has(.profile-card-grid > :nth-child(2)) {
+  max-width: 56rem;
+}
+
+.article-content:has(.book-card-grid) > p,
+.article-content:has(.profile-card-grid) > p,
+.article-content:has(.profile-card-grid) > h2,
+.article-content:has(.profile-card-grid) > aside {
+  max-width: 44rem;
+}
+
 .page-lead {
-  max-width: 42rem;
+  max-width: 44rem;
   margin-bottom: 2rem;
   font-size: 1.15rem;
   line-height: 1.8;
@@ -290,7 +401,7 @@ article header h2 {
 .talk-card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1.15rem;
   margin: 1.25rem 0 2.25rem;
 }
 
@@ -301,24 +412,34 @@ article header h2 {
 .book-card-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1.15rem;
   margin: 1.25rem 0 2.25rem;
+}
+
+.book-card-grid:has(> :only-child),
+.profile-card-grid:has(> :only-child) {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 44rem;
 }
 
 .book-card,
 .profile-card,
 .talk-card {
+  display: flex;
+  flex-direction: column;
   border: 1px solid rgb(var(--color-neutral-200));
-  border-radius: 0.9rem;
+  border-radius: 0.85rem;
   background: rgb(var(--color-neutral-50));
-  padding: 1.15rem;
+  padding: 1.3rem 1.35rem;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
 }
 
 .dark .book-card,
 .dark .profile-card,
 .dark .talk-card {
   border-color: rgb(var(--color-neutral-600));
-  background: rgb(var(--color-neutral-700));
+  background: #243247;
+  box-shadow: none;
 }
 
 .book-card .eyebrow,
@@ -335,52 +456,63 @@ article header h2 {
 .dark .book-card .eyebrow,
 .dark .profile-card .eyebrow,
 .dark .talk-card .eyebrow {
-  color: rgb(var(--color-primary-300));
+  color: rgb(var(--color-primary-200));
 }
 
 .book-card h3,
 .profile-card h3,
 .talk-card h3 {
   margin: 0;
-  font-size: 1.1rem;
-  line-height: 1.45;
+  color: rgb(var(--color-neutral-900));
+  font-size: 1.18rem;
+  font-weight: 750;
+  letter-spacing: -0.015em;
+  line-height: 1.4;
 }
 
-.book-card p:last-child,
-.profile-card p:last-child,
-.talk-card p:last-child {
-  margin: 0.55rem 0 0;
-  color: rgb(var(--color-neutral-600));
-  font-size: 0.9rem;
-  line-height: 1.65;
+.dark .book-card h3,
+.dark .profile-card h3,
+.talk-card h3 {
+  color: rgb(var(--color-neutral-50));
 }
 
-.dark .book-card p:last-child,
-.dark .profile-card p:last-child,
-.dark .talk-card p:last-child {
-  color: rgb(var(--color-neutral-300));
+.book-card > p:not(.eyebrow):not(.book-subtitle):not(.book-meta),
+.profile-card > p:not(.eyebrow),
+.talk-card > p:not(.eyebrow) {
+  margin: 0.6rem 0 0;
+  color: rgb(var(--color-neutral-700));
+  font-size: 0.92rem;
+  line-height: 1.68;
+}
+
+.dark .book-card > p:not(.eyebrow):not(.book-subtitle):not(.book-meta),
+.dark .profile-card > p:not(.eyebrow),
+.dark .talk-card > p:not(.eyebrow) {
+  color: rgb(var(--color-neutral-200));
 }
 
 .book-card .book-subtitle {
-  margin: 0.35rem 0 0;
+  margin: 0.3rem 0 0;
   color: rgb(var(--color-primary-700));
   font-size: 0.92rem;
-  font-weight: 700;
+  font-weight: 650;
 }
 
 .dark .book-card .book-subtitle {
-  color: rgb(var(--color-primary-300));
+  color: rgb(var(--color-primary-200));
 }
 
 .book-card .book-meta {
-  margin: 0.75rem 0 0;
-  color: rgb(var(--color-neutral-500));
+  margin: 0.85rem 0 0;
+  color: rgb(var(--color-neutral-600));
   font-size: 0.82rem;
   line-height: 1.6;
 }
 
-/* 카드 안의 행동 링크(구매·저장소) — 옛 홈 단추와 같은 색 토큰 */
+/* 카드 안의 행동 링크(구매·연습·저장소) — 좌우 카드 하단 수평 정렬 */
 .book-card .book-actions {
+  margin-top: auto;
+  padding-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -389,11 +521,11 @@ article header h2 {
 
 .book-card .book-actions a {
   display: inline-flex;
-  min-height: 2.5rem;
+  min-height: 2.45rem;
   align-items: center;
   justify-content: center;
-  border-radius: 0.6rem;
-  padding: 0.5rem 0.9rem;
+  border-radius: 0.55rem;
+  padding: 0.48rem 0.88rem;
   font-size: 0.85rem;
   font-weight: 700;
   line-height: 1;
@@ -420,7 +552,7 @@ article header h2 {
 .book-card .book-actions .code-action,
 .book-card .book-actions .practice-action {
   border: 1px solid rgb(var(--color-primary-700));
-  background: transparent;
+  background: rgb(var(--color-neutral));
   color: rgb(var(--color-primary-800));
 }
 
@@ -430,39 +562,41 @@ article header h2 {
 }
 
 .dark .book-card .book-actions .buy-action {
-  border-color: rgb(var(--color-primary-300));
-  background: rgb(var(--color-primary-300));
-  color: rgb(var(--color-neutral-800));
+  border-color: #255c7a;
+  background: #255c7a;
+  color: #ffffff;
 }
 
 .dark .book-card .book-actions .buy-action:hover {
-  border-color: rgb(var(--color-primary-200));
-  background: rgb(var(--color-primary-200));
+  border-color: #1d4b66;
+  background: #1d4b66;
 }
 
 .dark .book-card .book-actions .code-action,
 .dark .book-card .book-actions .practice-action {
   border-color: rgb(var(--color-primary-300));
-  color: rgb(var(--color-primary-200));
+  background: transparent;
+  color: rgb(var(--color-neutral-100));
 }
 
 .dark .book-card .book-actions .code-action:hover,
 .dark .book-card .book-actions .practice-action:hover {
-  background: rgb(var(--color-neutral-600));
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .book-card .book-actions .book-note {
   flex-basis: 100%;
-  margin: 0.1rem 0 0;
-  color: rgb(var(--color-neutral-500));
-  font-size: 0.8rem;
+  margin: 0.2rem 0 0;
+  color: rgb(var(--color-neutral-600));
+  font-size: 0.81rem;
+  min-height: 1.35rem;
 }
 
 .dark .book-card .book-actions .book-note {
   color: rgb(var(--color-neutral-300));
 }
 
-/* 메모 줄 안의 다른 구매처(알라딘·예스24) — 버튼이 아니라 글자 링크 */
+/* 메모 줄 안의 다른 구매처(알라딘·예스24·유페이퍼) — 버튼이 아니라 글자 링크 */
 .book-card .book-actions .book-note a {
   display: inline;
   min-height: 0;
@@ -498,7 +632,7 @@ article header h2 {
 }
 
 .dark .book-card .book-meta {
-  color: rgb(var(--color-neutral-400));
+  color: rgb(var(--color-neutral-300));
 }
 
 .expertise-list {
@@ -511,29 +645,34 @@ article header h2 {
 }
 
 .expertise-list li {
+  border: 1px solid rgb(var(--color-primary-100));
   border-radius: 999px;
   background: rgb(var(--color-primary-50));
-  padding: 0.45rem 0.8rem;
+  padding: 0.42rem 0.82rem;
   color: rgb(var(--color-primary-800));
   font-size: 0.88rem;
   font-weight: 650;
 }
 
 .dark .expertise-list li {
-  background: rgb(var(--color-neutral-700));
-  color: rgb(var(--color-primary-200));
+  border-color: rgb(var(--color-neutral-600));
+  background: #243247;
+  color: rgb(var(--color-primary-100));
 }
 
 .contact-panel {
   margin-top: 2rem;
-  border-inline-start: 4px solid rgb(var(--color-secondary-500));
+  border: 1px solid rgb(var(--color-neutral-200));
+  border-inline-start: 4px solid rgb(var(--color-secondary-600));
   border-radius: 0.75rem;
   background: rgb(var(--color-neutral-50));
   padding: 1.2rem 1.35rem;
 }
 
 .dark .contact-panel {
-  background: rgb(var(--color-neutral-700));
+  border-color: rgb(var(--color-neutral-600));
+  border-inline-start-color: rgb(var(--color-secondary-400));
+  background: #243247;
 }
 
 .contact-panel h2 {
@@ -578,5 +717,5 @@ article header h2 {
   }
 }
 
-/* 연습 사이트의 책 연계 링크(/books/#basics)가 카드 위쪽을 머리 막대에 가리지 않게(2026-10-19) */
+/* 연습 사이트의 책 연계 링크(/books/#basics, /books/#vis)가 카드 위쪽을 머리 막대에 가리지 않게(2026-10-19) */
 .book-card[id] { scroll-margin-top: 96px; }
