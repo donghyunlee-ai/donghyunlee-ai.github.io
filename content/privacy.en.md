@@ -39,22 +39,23 @@ If an inquiry concerns laboratory or company work, the Operator will direct the 
 
 ### Python practice page
 
-The Python practice page at `donghyunlee.kr/practice/` requires no registration, and the code, answers, and practice records that users create are not sent to the Operator. However, when answers are graded, the page sends the “Grading statistics” described below to Google Analytics.
+The Python practice page at `donghyunlee.kr/practice/` requires no registration.
 
-- Code execution: Python code runs and is graded inside the user’s browser. For this, the page downloads the Python runtime (Pyodide) and fonts from jsDelivr.
-- Practice records: solved problems, answers in progress, and time attack and mock exam records are stored only in the user’s browser storage (localStorage). The Operator cannot see these records.
-- Grading statistics: each time an answer is graded, the page sends the following to Google Analytics. The Operator uses them to find which problems learners often get wrong, and why, and to improve the problems, explanations, and textbooks.
-  - Sent: the course and problem ID; the problem type; the grading result (correct, wrong, or error, or a score); the name of the first error; how many times this browser has graded that problem; whether it was practice, a time attack, or a mock exam; and, when an answer matches a predefined common wrong answer, a code for that type of mistake
-  - Not sent: the code written, the answer entered, or the program output
-  - If you opt out using the methods in Section 5, grading statistics are not sent either.
-- Usage analytics: the “Site usage analytics” described above also applies to this page. Code, answers, and the practice records stored in this browser are not sent to Google Analytics.
+- Code execution and local progress: Python code runs inside the user’s browser (loading Pyodide and fonts from jsDelivr), and solved problems, drafts, and exam records are kept in the user’s browser (`localStorage`).
+- Grading statistics: to identify common stumbling blocks and improve the problems and textbooks, grading sends the following summary items to Google Analytics (excluding code, answers, and program output; opt-out in Section 5 applies):
+  - Items sent: course and problem ID, problem type, grading result or score, first error name, attempt count in the browser, mode (practice, time attack, or mock exam), and predefined mistake-pattern codes
+- Daily leaderboard (optional): only when a user finishes a daily problem and clicks “Post to leaderboard” with a preset nickname combo, the following items are processed:
+  - Data processed: preset nickname indices (adjective index, noun index, and 2-digit tag), a random anonymous session identifier, daily scores, solve times, try counts, and standard connection logs
+  - Storage region and processor: Supabase Inc. (Seoul, Republic of Korea, `ap-northeast-2`)
+  - Immediate deletion: pressing “Delete board records” on the practice page immediately deletes your nickname and leaderboard entries from the server.
 
 ## 2. Processing and retention periods
 
 - Google Analytics user- and event-level data: 14 months from collection
 - Google Analytics cookies: up to 14 months from creation; the expiration period is not extended with each visit
 - Email inquiry information: deleted without delay after the purpose of the inquiry has been fulfilled, unless retention is required for a contract, dispute, or under applicable law
-- Python practice page records: kept only in the user’s browser and deleted when the user clears the site data in the browser or deletes them under “내 기록” (My records) on the practice page. The Operator does not retain them.
+- Python practice page local progress: deleted when clearing site data in the browser or pressing “Clear all progress” under “My progress”
+- Python practice page daily leaderboard records (when opted in): retained for 90 days from the record date and automatically purged thereafter, or deleted immediately when pressing “Delete board records”
 
 Statistics that are not directly tied to a personal identifier, such as standard aggregated Google Analytics reports, may be retained longer under Google’s policies.
 
