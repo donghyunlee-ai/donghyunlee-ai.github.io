@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2026-07-11
-lastmod: 2026-11-21
+lastmod: 2026-11-22
 summary: "Donghyun Lee — professor at Hankuk University of Foreign Studies and founder of AI Korea Inc., applying trustworthy AI to high-stakes forecasting."
 ShowReadingTime: false
 ShowToc: false
@@ -35,16 +35,14 @@ I am currently developing this perspective into two Korean-language books in the
   </section>
 </div>
 
-## Research focus
+## Research interests
 
 <ul class="expertise-list not-prose">
-  <li>Explainable AI (XAI)</li>
-  <li>Uncertainty quantification</li>
-  <li>Infectious-disease forecasting</li>
-  <li>Environmental forecasting</li>
-  <li>Deep learning</li>
-  <li>Validity of LLM-based synthetic agents</li>
+  <li>Trustworthy AI</li>
+  <li>Computational Social Science</li>
 </ul>
+
+I study how much people and institutions should trust AI forecasts of infectious disease and the environment, and LLM-simulated survey respondents.
 
 I have participated in projects that tackle real-world forecasting problems, including the national Digital Columbus project, and have led numerous research projects as principal investigator.
 

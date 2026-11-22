@@ -3,7 +3,7 @@ title: "소개"
 url: "/about/"
 aliases: ["/talks/"]
 date: 2026-07-11
-lastmod: 2026-11-21
+lastmod: 2026-11-22
 summary: "이동현 — 한국외국어대학교 교수, 한국인공지능 주식회사 창업자. 신뢰할 수 있는 AI를 고위험 예측 현장에 적용하는 연구자."
 ShowReadingTime: false
 ShowToc: false
@@ -37,16 +37,14 @@ showPagination: false
   </section>
 </div>
 
-## 연구 초점
+## 연구 관심
 
 <ul class="expertise-list not-prose">
-  <li>설명가능한 AI(XAI)</li>
-  <li>불확실성 정량화</li>
-  <li>감염병 예측</li>
-  <li>환경 예측</li>
-  <li>딥러닝</li>
-  <li>LLM 합성 행위자 타당성</li>
+  <li>신뢰할 수 있는 AI(Trustworthy AI)</li>
+  <li>계산사회과학(Computational Social Science)</li>
 </ul>
+
+사람과 기관이 감염병·환경 예측 AI와 LLM이 만든 합성 설문 응답을 얼마나 믿어야 하는지 연구합니다.
 
 국책과제 디지털 콜럼버스 등 현장의 예측 문제를 푸는 프로젝트에 참여해 왔고, 여러 연구 프로젝트의 연구책임자를 맡았습니다.
 
