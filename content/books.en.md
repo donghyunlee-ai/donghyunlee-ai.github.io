@@ -1,7 +1,7 @@
 ---
 title: "Books"
 date: 2026-08-16
-lastmod: 2026-11-15
+lastmod: 2026-11-22
 summary: "AI ERA SERIES — Korean-language books about what and how to learn in the age of AI."
 ShowReadingTime: false
 ShowToc: false
@@ -30,7 +30,7 @@ showPagination: false
     <h3>Python Data Visualization in the Age of AI</h3>
     <p class="book-subtitle">From a single chart to a dashboard</p>
     <p>When AI can draw every chart, who decides what the chart should show? Beginning with the principle of choosing the one thing to communicate before drawing, this book covers the path from matplotlib to dashboards.</p>
-    <p class="book-meta book-actions"><a class="buy-action" href="https://madeby2.upaper.kr/content/1229866">Buy the ebook</a><a class="practice-action" href="/practice/en/data-visualization/">Practice problems</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization">Example code &amp; study materials (GitHub)</a><span class="book-note">Korean ebook on Upaper</span></p>
+    <p class="book-meta book-actions"><a class="buy-action" href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013856436">Buy the ebook</a><a class="practice-action" href="/practice/en/data-visualization/">Practice problems</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization">Example code &amp; study materials (GitHub)</a><span class="book-note">Korean ebook on Kyobo Book Centre · also on <a href="https://madeby2.upaper.kr/content/1229866">Upaper</a></span></p>
   </section>
 </div>
 
