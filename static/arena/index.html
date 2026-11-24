@@ -5,12 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
   <link rel="canonical" href="https://donghyunlee.kr/practice/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="오늘의 파이썬 코딩 문제 · 실시간 순위표">
+  <meta property="og:description" content="설치·가입 없이 하루 1문제! 기록에 도전하고 도트 캐릭터 시상대에 올라 보세요.">
+  <meta property="og:url" content="https://donghyunlee.kr/arena/">
+  <meta property="og:image" content="https://donghyunlee.kr/practice/assets/icons/og-coding.png">
+  <meta name="twitter:card" content="summary_large_image">
   <title>파이썬 코딩 테스트 · 오늘의 코딩 문제 순위표로 이동 중</title>
   <script>
     (function () {
       var q = location.search || "";
-      var h = location.hash && location.hash.length > 1 ? location.hash :
-        (q.indexOf("duel=") >= 0 ? ("#/coding-test/hunt" + q) : "#/coding-test/daily?board=1");
+      var sp = typeof URLSearchParams !== "undefined" ? new URLSearchParams(q) : null;
+      var d = sp ? (sp.get("d") || "") : "";
+      var r = sp ? (sp.get("r") || "") : "";
+      var validD = /^\d{4}-\d{2}-\d{2}$/.test(d) ? ("/" + d) : "";
+      var h;
+      if (location.hash && location.hash.length > 1) {
+        h = location.hash;
+      } else if (sp && sp.get("duel")) {
+        h = "#/coding-test/hunt" + q;
+      } else if (r) {
+        h = "#/coding-test/daily" + validD + "?r=" + encodeURIComponent(r);
+      } else if (validD) {
+        h = "#/coding-test/daily" + validD + "?board=1";
+      } else {
+        h = "#/coding-test/daily?board=1";
+      }
       location.replace("/practice/" + h);
     })();
   </script>
