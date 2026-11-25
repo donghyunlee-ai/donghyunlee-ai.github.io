@@ -2,7 +2,7 @@
 title: "도서"
 url: "/books/"
 date: 2026-08-16
-lastmod: 2026-11-22
+lastmod: 2026-11-25
 summary: "AI ERA SERIES — AI 시대에 무엇을 어떻게 공부해야 하는지를 다루는 책 시리즈."
 ShowReadingTime: false
 ShowToc: false
@@ -24,14 +24,14 @@ showPagination: false
     <h3>AI 시대의 파이썬 기본기</h3>
     <p class="book-subtitle">경험 제로에서 시작하는 첫 파이썬 수업</p>
     <p>AI가 코드를 다 짜 주는 시대, 그 코드를 그대로 믿어도 될까요? 따라 치기 전에 출력부터 예측하는 훈련으로, AI가 낸 코드를 읽고 검증할 수 있는 기본기를 만듭니다.</p>
-    <p class="book-meta book-actions"><a class="buy-action" href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013609812">전자책 구매</a><a class="practice-action" href="/practice/#/basics">연습 문제</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-basics">예제 코드 (GitHub)</a><span class="book-note">교보문고 전자책 · <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403414646">알라딘</a>, <a href="https://www.yes24.com/product/goods/197288461">예스24</a>, <a href="https://madeby2.upaper.kr/content/1224834">유페이퍼</a>에서도 판매</span></p>
+    <p class="book-meta book-actions"><a class="buy-action" href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013609812">전자책 구매</a><a class="practice-action" href="/practice/#/basics">연습 문제</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-basics">예제 코드 (GitHub)</a><span class="book-note">교보문고 전자책 · <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403414646">알라딘</a> · <a href="https://www.yes24.com/product/goods/197288461">예스24</a> · <a href="https://madeby2.upaper.kr/content/1224834">유페이퍼</a></span></p>
   </section>
   <section class="book-card" id="vis">
     <p class="eyebrow">AI ERA SERIES 02</p>
     <h3>AI 시대의 파이썬 데이터 시각화</h3>
     <p class="book-subtitle">차트 한 장에서 대시보드까지</p>
     <p>AI가 차트를 다 그려 주는 시대, 무엇을 보여줄지는 누가 정할까요? 그리기 전에 보여줄 하나를 정하는 원칙으로, matplotlib부터 대시보드까지 다룹니다.</p>
-    <p class="book-meta book-actions"><a class="buy-action" href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013856436">전자책 구매</a><a class="practice-action" href="/practice/#/vis">연습 문제</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization">예제 코드·학습 자료 (GitHub)</a><span class="book-note">교보문고 전자책 · <a href="https://madeby2.upaper.kr/content/1229866">유페이퍼</a>에서도 판매</span></p>
+    <p class="book-meta book-actions"><a class="buy-action" href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013856436">전자책 구매</a><a class="practice-action" href="/practice/#/vis">연습 문제</a><a class="code-action" href="https://github.com/donghyunlee-ai/book-python-visualization">예제 코드·학습 자료 (GitHub)</a><span class="book-note">교보문고 전자책 · <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=408048132">알라딘</a> · <a href="https://madeby2.upaper.kr/content/1229866">유페이퍼</a></span></p>
   </section>
 </div>
 
