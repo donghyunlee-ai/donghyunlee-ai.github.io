@@ -44,10 +44,10 @@ The Python practice page at `donghyunlee.kr/practice/` requires no registration.
 - Code execution and local progress: Python code runs inside the user’s browser (loading Pyodide and fonts from jsDelivr), and solved problems, drafts, and exam records are kept in the user’s browser (`localStorage`).
 - Grading statistics: to identify common stumbling blocks and improve the problems and textbooks, grading sends the following summary items to Google Analytics (excluding code, answers, and program output; opt-out in Section 5 applies):
   - Items sent: course and problem ID, problem type, grading result or score, first error name, attempt count in the browser, mode (practice, time attack, or mock exam), and predefined mistake-pattern codes
-- Daily leaderboard (optional): only when a user finishes a daily problem and clicks “Post to leaderboard” with a preset nickname combo, the following items are processed:
-  - Data processed: preset nickname indices (adjective index, noun index, and 2-digit tag), a random anonymous session identifier, daily scores, solve times, try counts, and standard connection logs
+- Daily and chapter leaderboards (optional): only when a user solves problems and clicks “Post to leaderboard” with a preset nickname combo, the following items are processed:
+  - Data processed: preset nickname indices (adjective index, noun index, and 2-digit tag), a random anonymous session identifier, daily or chapter solved counts, solve times, try counts, and standard connection logs
   - Storage region and processor: Supabase Inc. (Seoul, Republic of Korea, `ap-northeast-2`)
-  - Immediate deletion: pressing “Delete board records” on the practice page immediately deletes your nickname and leaderboard entries from the server.
+  - Immediate deletion: pressing “Delete board records” on the practice page immediately deletes your nickname and all leaderboard entries from the server.
 
 ## 2. Processing and retention periods
 
@@ -55,7 +55,7 @@ The Python practice page at `donghyunlee.kr/practice/` requires no registration.
 - Google Analytics cookies: up to 14 months from creation; the expiration period is not extended with each visit
 - Email inquiry information: deleted without delay after the purpose of the inquiry has been fulfilled, unless retention is required for a contract, dispute, or under applicable law
 - Python practice page local progress: deleted when clearing site data in the browser or pressing “Clear all progress” under “My progress”
-- Python practice page daily leaderboard records (when opted in): retained for 90 days from the record date and automatically purged thereafter, or deleted immediately when pressing “Delete board records”
+- Python practice page leaderboard records (when opted in): daily and monthly records are retained for 90 days and all-time chapter best records for 1 year from last update before automatic purge, or deleted immediately when pressing “Delete board records”
 
 Statistics that are not directly tied to a personal identifier, such as standard aggregated Google Analytics reports, may be retained longer under Google’s policies.
 
